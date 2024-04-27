@@ -6,24 +6,23 @@
 
 <span style="color:#ECAD35">**Updated as of: 2024-04-26**</span>
 
-|              |   Variables    |       [x]       |                |      Shells      |   [ ]    |
-| First Course |   Sub-Course   |       Complete        | Second Course  |    Sub-Course    |       Complete       |
-| :----------- | :------------: | :-------------------: | :------------- | :--------------: | :------------------: |
-| Learn Python |                | <ul><li>[]</li></ul>  | Learn Terminal |                  | <ul><li>[]</li></ul> |
-|              |  Introduction  | <ul><li>[x]</li></ul> |                |    Terminals     | <ul><li>[]</li></ul> |
-|              |   Variables    | <ul><li>[x]</li></ul> |                |      Shells      | <ul><li>[]</li></ul> |
-|              |   Functions    | <ul><li>[x]</li></ul> |                |   Filesystems    | <ul><li>[]</li></ul> |
-|              |     Scope      | <ul><li>[x]</li></ul> |                |   Permissions    | <ul><li>[]</li></ul> |
-|              | Test and Debug | <ul><li>[x]</li></ul> |                |     Programs     | <ul><li>[]</li></ul> |
-|              |   Computing    | <ul><li>[x]</li></ul> |                | Package Managers | <ul><li>[]</li></ul> |
-|              |  Comparisons   | <ul><li>[x]</li></ul> |                |                  |                      |
-|              |     Loops      | <ul><li>[x]</li></ul> |                |                  |                      |
-|              |     Lists      | <ul><li>[x]</li></ul> |                |                  |                      |
-|              |  Dictionaries  | <ul><li>[]</li></ul>  |                |                  |                      |
-|              |      Sets      | <ul><li>[]</li></ul>  |                |                  |                      |
-|              |     Errors     | <ul><li>[]</li></ul>  |                |                  |                      |
-|              |   Challenges   | <ul><li>[]</li></ul>  |                |                  |                      |
-|              |      Quiz      | <ul><li>[]</li></ul>  |                |                  |                      |
+| First Course |   Sub-Course   |            Complete             | Second Course  |    Sub-Course    |       Complete       |
+| :----------- | :------------: | :-----------------------------: | :------------- | :--------------: | :------------------: |
+| Learn Python |                | <ul><li>[] Incomplete</li></ul> | Learn Terminal |                  | <ul><li>[]</li></ul> |
+|              |  Introduction  | <ul><li>[x] Complete </li></ul> |                |    Terminals     | <ul><li>[]</li></ul> |
+|              |   Variables    |      <ul><li>[x]</li></ul>      |                |      Shells      | <ul><li>[]</li></ul> |
+|              |   Functions    |      <ul><li>[x]</li></ul>      |                |   Filesystems    | <ul><li>[]</li></ul> |
+|              |     Scope      |      <ul><li>[x]</li></ul>      |                |   Permissions    | <ul><li>[]</li></ul> |
+|              | Test and Debug |      <ul><li>[x]</li></ul>      |                |     Programs     | <ul><li>[]</li></ul> |
+|              |   Computing    |      <ul><li>[x]</li></ul>      |                | Package Managers | <ul><li>[]</li></ul> |
+|              |  Comparisons   |      <ul><li>[x]</li></ul>      |                |                  |                      |
+|              |     Loops      |      <ul><li>[x]</li></ul>      |                |                  |                      |
+|              |     Lists      |      <ul><li>[x]</li></ul>      |                |                  |                      |
+|              |  Dictionaries  |      <ul><li>[]</li></ul>       |                |                  |                      |
+|              |      Sets      |      <ul><li>[]</li></ul>       |                |                  |                      |
+|              |     Errors     |      <ul><li>[]</li></ul>       |                |                  |                      |
+|              |   Challenges   |      <ul><li>[]</li></ul>       |                |                  |                      |
+|              |      Quiz      |      <ul><li>[]</li></ul>       |                |                  |                      |
 
 | First Course |   Sub-Course   |        Complete        | Second Course  |    Sub-Course    | Complete |
 | :----------- | :------------: | :--------------------: | :------------- | :--------------: | :------: |
@@ -43,10 +42,10 @@
 |              |   Challenges   |          [ ]           |                |                  |          |
 |              |      Quiz      |          [ ]           |                |                  |          |
 
-| Stage       | Time to complete | Current Status   | Finished              |
-| ----------- | ---------------- | ---------------- | --------------------- |
-| Development | 2 days           | Work in progress | <ul><li>[x]</li></ul> |
-| QA          | 3 days           | Work in progress | <ul><li>[]</li></ul>  |
+| Stage       | Time to complete | Current Status   | Finished                        |
+| ----------- | ---------------- | ---------------- | ------------------------------- |
+| Development | 2 days           | Work in progress | <ul><li>[x] Complete </li></ul> |
+| QA          | 3 days           | Work in progress | <ul><li>[] Incomplete</li></ul> |
 
 ## At the beginning and end of each section you will see:
 
