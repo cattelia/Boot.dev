@@ -37,3 +37,9 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 | :--------------------------------------------- | :----------------------------------------------: | :----------------------------------------------------: |
 | <span style="color:#ECAD35">**#ECAD35**</span> |   <span style="color:#ECAD35">**Gold**</span>    | <span style="color:#ECAD35">**Sara Eilenstine**</span> |
 | <span style="color:#0F77A5">**#0F77A5**</span> | <span style="color:#0F77A5">**Dark Teal**</span> |    <span style="color:#0F77A5">**Boot.dev**</span>     |
+
+## How to move through my work:
+
+<br>
+
+![alt text](img/image-4.png)
