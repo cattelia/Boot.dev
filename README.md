@@ -2,9 +2,10 @@
 
 # <div align="center">Learning Backend Engineering from <span style="color:#0F77A5">**Boot.dev**</span>
 
-### <div align="center">Or as they like to say, _"Learn back-end development the addictive way"_</span>
+### <div align="center">Or as they like to say,<span style="color:#0F77A5"> _**"Learn back-end development the addictive way"**_</span></span>
 
-<span style="color:#ECAD35">**Updated as of: 2024-04-26**</span>
+<span style="color:#ECAD35">**Updated as of: 2024-04-26**</span><br>
+_This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
 | First Course |   Sub-Course   |              Complete              | Second Course  |    Sub-Course    |              Complete              |
 | :----------- | :------------: | :--------------------------------: | :------------- | :--------------: | :--------------------------------: |
