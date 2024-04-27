@@ -4,25 +4,43 @@
 
 ### Or as they like to say, _"Learn back-end development the addictive way"_
 
-<span style="color:#ECAD35">Updated as of: 2024-04-26</span>
+<span style="color:#ECAD35">**Updated as of: 2024-04-26**</span>
 
-| First Course |   Sub-Course   |              Complete              |
-| :----------- | :------------: | :--------------------------------: |
-| Learn Python |                | <input type="checkbox" unchecked/> |
-|              |  Introduction  |  <input type="checkbox" checked/>  |
-|              |   Variables    |  <input type="checkbox" checked/>  |
-|              |   Functions    |  <input type="checkbox" checked/>  |
-|              |     Scope      |  <input type="checkbox" checked/>  |
-|              | Test and Debug |  <input type="checkbox" checked/>  |
-|              |   Computing    |  <input type="checkbox" checked/>  |
-|              |  Comparisons   |  <input type="checkbox" checked/>  |
-|              |     Loops      |  <input type="checkbox" checked/>  |
-|              |     Lists      |  <input type="checkbox" checked/>  |
-|              |  Dictionaries  | <input type="checkbox" unchecked/> |
-|              |      Sets      | <input type="checkbox" unchecked/> |
-|              |     Errors     | <input type="checkbox" unchecked/> |
-|              |   Challenges   | <input type="checkbox" unchecked/> |
-|              |      Quiz      | <input type="checkbox" unchecked/> |
+| First Course |   Sub-Course   |              Complete              | Second Course  |    Sub-Course    |              Complete              |
+| :----------- | :------------: | :--------------------------------: | :------------- | :--------------: | :--------------------------------: |
+| Learn Python |                | <input type="checkbox" unchecked/> | Learn Terminal |                  | <input type="checkbox" unchecked/> |
+|              |  Introduction  |  <input type="checkbox" checked/>  |                |    Terminals     | <input type="checkbox" unchecked/> |
+|              |   Variables    |  <input type="checkbox" checked/>  |                |      Shells      | <input type="checkbox" unchecked/> |
+|              |   Functions    |  <input type="checkbox" checked/>  |                |   Filesystems    | <input type="checkbox" unchecked/> |
+|              |     Scope      |  <input type="checkbox" checked/>  |                |   Permissions    | <input type="checkbox" unchecked/> |
+|              | Test and Debug |  <input type="checkbox" checked/>  |                |     Programs     | <input type="checkbox" unchecked/> |
+|              |   Computing    |  <input type="checkbox" checked/>  |                | Package Managers | <input type="checkbox" unchecked/> |
+|              |  Comparisons   |  <input type="checkbox" checked/>  |                |                  |                                    |
+|              |     Loops      |  <input type="checkbox" checked/>  |                |                  |                                    |
+|              |     Lists      |  <input type="checkbox" checked/>  |                |                  |                                    |
+|              |  Dictionaries  | <input type="checkbox" unchecked/> |                |                  |                                    |
+|              |      Sets      | <input type="checkbox" unchecked/> |                |                  |                                    |
+|              |     Errors     | <input type="checkbox" unchecked/> |                |                  |                                    |
+|              |   Challenges   | <input type="checkbox" unchecked/> |                |                  |                                    |
+|              |      Quiz      | <input type="checkbox" unchecked/> |                |                  |                                    |
+
+| First Course |   Sub-Course   | Complete | Second Course  |    Sub-Course    | Complete |
+| :----------- | :------------: | :------: | :------------- | :--------------: | :------: |
+| Learn Python |                |   [ ]    | Learn Terminal |                  |   [ ]    |
+|              |  Introduction  |   [x]    |                |    Terminals     |   [ ]    |
+|              |   Variables    |   [x]    |                |      Shells      |   [ ]    |
+|              |   Functions    |   [x]    |                |   Filesystems    |   [ ]    |
+|              |     Scope      |   [x]    |                |   Permissions    |   [ ]    |
+|              | Test and Debug |   [x]    |                |     Programs     |   [ ]    |
+|              |   Computing    |   [x]    |                | Package Managers |   [ ]    |
+|              |  Comparisons   |   [x]    |                |                  |          |
+|              |     Loops      |   [x]    |                |                  |          |
+|              |     Lists      |   [x]    |                |                  |          |
+|              |  Dictionaries  |   [ ]    |                |                  |          |
+|              |      Sets      |   [ ]    |                |                  |          |
+|              |     Errors     |   [ ]    |                |                  |          |
+|              |   Challenges   |   [ ]    |                |                  |          |
+|              |      Quiz      |   [ ]    |                |                  |          |
 
 ## At the beginning and end of each section you will see:
 
