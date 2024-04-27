@@ -24,23 +24,26 @@
 |              |   Challenges   | <input type="checkbox" unchecked/> |                |                  |                                    |
 |              |      Quiz      | <input type="checkbox" unchecked/> |                |                  |                                    |
 
-| First Course |   Sub-Course   |     Complete     | Second Course  |    Sub-Course    | Complete |
-| :----------- | :------------: | :--------------: | :------------- | :--------------: | :------: |
-| Learn Python |                | [ ] Not Complete | Learn Terminal |                  |   [ ]    |
-|              |  Introduction  |   [x] Complete   |                |    Terminals     |   [ ]    |
-|              |   Variables    |       [x]        |                |      Shells      |   [ ]    |
-|              |   Functions    |       [x]        |                |   Filesystems    |   [ ]    |
-|              |     Scope      |       [x]        |                |   Permissions    |   [ ]    |
-|              | Test and Debug |       [x]        |                |     Programs     |   [ ]    |
-|              |   Computing    |       [x]        |                | Package Managers |   [ ]    |
-|              |  Comparisons   |       [x]        |                |                  |          |
-|              |     Loops      |       [x]        |                |                  |          |
-|              |     Lists      |       [x]        |                |                  |          |
-|              |  Dictionaries  |       [ ]        |                |                  |          |
-|              |      Sets      |       [ ]        |                |                  |          |
-|              |     Errors     |       [ ]        |                |                  |          |
-|              |   Challenges   |       [ ]        |                |                  |          |
-|              |      Quiz      |       [ ]        |                |                  |          |
+| First Course |   Sub-Course   |    Complete     | Second Course  |    Sub-Course    | Complete |
+| :----------- | :------------: | :-------------: | :------------- | :--------------: | :------: |
+| Learn Python |                | [] Not Complete | Learn Terminal |                  |   [ ]    |
+|              |  Introduction  |  [x] Complete   |                |    Terminals     |   [ ]    |
+|              |   Variables    |       [x]       |                |      Shells      |   [ ]    |
+|              |   Functions    |       [x]       |                |   Filesystems    |   [ ]    |
+|              |     Scope      |       [x]       |                |   Permissions    |   [ ]    |
+|              | Test and Debug |       [x]       |                |     Programs     |   [ ]    |
+|              |   Computing    |       [x]       |                | Package Managers |   [ ]    |
+|              |  Comparisons   |       [x]       |                |                  |          |
+|              |     Loops      |       [x]       |                |                  |          |
+|              |     Lists      |       [x]       |                |                  |          |
+|              |  Dictionaries  |       [ ]       |                |                  |          |
+|              |      Sets      |       [ ]       |                |                  |          |
+|              |     Errors     |       [ ]       |                |                  |          |
+|              |   Challenges   |       [ ]       |                |                  |          |
+|              |      Quiz      |       [ ]       |                |                  |          |
+
+[]
+[x]
 
 ## At the beginning and end of each section you will see:
 
