@@ -24,29 +24,6 @@
 |              |   Challenges   |      <ul><li>[]</li></ul>       |                |                  |                      |
 |              |      Quiz      |      <ul><li>[]</li></ul>       |                |                  |                      |
 
-| First Course |   Sub-Course   |        Complete        | Second Course  |    Sub-Course    | Complete |
-| :----------- | :------------: | :--------------------: | :------------- | :--------------: | :------: |
-| Learn Python |                |    [] Not Complete     | Learn Terminal |                  |   [ ]    |
-|              |  Introduction  | <ul>[x] completed</ul> |                |    Terminals     |   [ ]    |
-|              |   Variables    |          [x]           |                |      Shells      |   [ ]    |
-|              |   Functions    |          [x]           |                |   Filesystems    |   [ ]    |
-|              |     Scope      |          [x]           |                |   Permissions    |   [ ]    |
-|              | Test and Debug |          [x]           |                |     Programs     |   [ ]    |
-|              |   Computing    |          [x]           |                | Package Managers |   [ ]    |
-|              |  Comparisons   |          [x]           |                |                  |          |
-|              |     Loops      |          [x]           |                |                  |          |
-|              |     Lists      |          [x]           |                |                  |          |
-|              |  Dictionaries  |          [ ]           |                |                  |          |
-|              |      Sets      |          [ ]           |                |                  |          |
-|              |     Errors     |          [ ]           |                |                  |          |
-|              |   Challenges   |          [ ]           |                |                  |          |
-|              |      Quiz      |          [ ]           |                |                  |          |
-
-| Stage       | Time to complete | Current Status   | Finished                        |
-| ----------- | ---------------- | ---------------- | ------------------------------- |
-| Development | 2 days           | Work in progress | <ul><li>[x] Complete </li></ul> |
-| QA          | 3 days           | Work in progress | <ul><li>[] Incomplete</li></ul> |
-
 ## At the beginning and end of each section you will see:
 
 ### <div align="center"> "All <span style="color:#ECAD35">Solution</span> work done by <span style="color:#ECAD35">Sara Eilenstine</span>. All <span style="color:#0F77A5">**course work**</span>, instruction and media are through <a href="https://www.boot.dev/"><span style="color:#0F77A5">**Boot.dev**</span></a>!"</div>
