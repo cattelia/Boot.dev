@@ -42,10 +42,10 @@
 |              |   Challenges   |       [ ]       |                |                  |          |
 |              |      Quiz      |       [ ]       |                |                  |          |
 
-| Stage       | Time to complete | Current Status   | Finished                                             |
-| ----------- | ---------------- | ---------------- | ---------------------------------------------------- |
-| Development | 2 days           | Work in progress | <ul><li>- [x] completed</li><li>- [ ] todo</li></ul> |
-| QA          | 3 days           | Work in progress | <ul><li>[x] done</li><li>[ ] tobedone</li></ul>      |
+| Stage       | Time to complete | Current Status   | Finished                                        |
+| ----------- | ---------------- | ---------------- | ----------------------------------------------- |
+| Development | 2 days           | Work in progress | <ul><li>[x] completed</li></ul>                 |
+| QA          | 3 days           | Work in progress | <ul><li>[x] done</li><li>[ ] tobedone</li></ul> |
 
 ## At the beginning and end of each section you will see:
 
