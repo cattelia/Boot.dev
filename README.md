@@ -2,7 +2,7 @@
 
 # <div align="center">Learning Backend Engineering from <span style="color:#0F77A5">**Boot.dev**</span>
 
-### Or as they like to say, _"Learn back-end development the addictive way"_
+### <div align="center">Or as they like to say, _"Learn back-end development the addictive way"_</span>
 
 <span style="color:#ECAD35">**Updated as of: 2024-04-26**</span>
 
