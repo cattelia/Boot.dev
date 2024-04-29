@@ -4,6 +4,8 @@
 
 ### <div align="center">Or as they like to say,<span style="color:#0F77A5"> _**"Learn back-end development the addictive way"**_</span></span>
 
+# Progress Tracker
+
 <span style="color:#ECAD35">**Updated as of: 2024-04-26**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
