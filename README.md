@@ -29,7 +29,13 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 
 ## At the beginning and end of each section you will see:
 
-### <div align="center"> "All <span style="color:#ECAD35">Solution</span> work done by <span style="color:#ECAD35">Sara Eilenstine</span>. All <span style="color:#0F77A5">**course work**</span>, instruction and media are through <a href="https://www.boot.dev/"><span style="color:#0F77A5">**Boot.dev**</span></a>!"</div>
+### <div align="center"> All <span style="color:#ECAD35">Solution</span> work done by <span style="color:#ECAD35">Sara Eilenstine</span>. 
+
+```All of the solutions and projects will have been solved and curated by my own learning of the Boot.dev material and subsidiary material found amoung the internets. I make a huge effort in adding resources that were instrumental to solving problems that were from outside of Boot.dev.```
+
+### <div align="center"> All <span style="color:#0F77A5">**course work**</span>, instruction and media are through <a href="https://www.boot.dev/"><span style="color:#0F77A5">**Boot.dev**</span></a>!</div>
+
+```All of the questions, reading material, quizzes, pictures and Output files are curated by Boot.dev and their team. Including the photos you see in this Readme.md file.```
 
 ### **Key to Text Color**
 
