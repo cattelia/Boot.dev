@@ -18,7 +18,7 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 |              |     Scope      |  <input type="checkbox" checked/>  |                |   Permissions    | <input type="checkbox" unchecked/> |
 |              | Test and Debug |  <input type="checkbox" checked/>  |                |     Programs     | <input type="checkbox" unchecked/> |
 |              |   Computing    |  <input type="checkbox" checked/>  |                | Package Managers | <input type="checkbox" unchecked/> |
-|              |  Comparisons   |  <input type="checkbox" checked/>  |                |                  |                                    |
+|              |  Comparisons   |  <input type="checkbox" checked/>  |                |          test    | - [x] Test |
 |              |     Loops      |  <input type="checkbox" checked/>  |                |                  |                                    |
 |              |     Lists      |  <input type="checkbox" checked/>  |                |                  |                                    |
 |              |  Dictionaries  | <input type="checkbox" unchecked/> |                |                  |                                    |
