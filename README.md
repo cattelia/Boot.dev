@@ -12,16 +12,16 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 | First Course |   Sub-Course   |              Complete              | Second Course  |    Sub-Course    |              Complete              |
 | :----------- | :------------: | :--------------------------------: | :------------- | :--------------: | :--------------------------------: |
 | Learn Python |                | <input type="checkbox" unchecked/> | Learn Terminal |                  | <input type="checkbox" unchecked/> |
-|              |  Introduction  |  <input type="checkbox" checked/>  |                |    Terminals     | <input type="checkbox" unchecked/> |
-|              |   Variables    |  <input type="checkbox" checked/>  |                |      Shells      | <input type="checkbox" unchecked/> |
-|              |   Functions    |  <input type="checkbox" checked/>  |                |   Filesystems    | <input type="checkbox" unchecked/> |
-|              |     Scope      |  <input type="checkbox" checked/>  |                |   Permissions    | <input type="checkbox" unchecked/> |
-|              | Test and Debug |  <input type="checkbox" checked/>  |                |     Programs     | <input type="checkbox" unchecked/> |
-|              |   Computing    |  <input type="checkbox" checked/>  |                | Package Managers | <input type="checkbox" unchecked/> |
-|              |  Comparisons   |  <input type="checkbox" checked/>  |                |                  |                                    |
-|              |     Loops      |  <input type="checkbox" checked/>  |                |                  |                                    |
-|              |     Lists      |  <input type="checkbox" checked/>  |                |                  |                                    |
-|              |  Dictionaries  | <input type="checkbox" unchecked/> |                |                  |                                    |
+|              |  Introduction  |  <input type="checkbox" checked/> x |                |    Terminals     | <input type="checkbox" unchecked/> |
+|              |   Variables    |  <input type="checkbox" checked/> x |                |      Shells      | <input type="checkbox" unchecked/> |
+|              |   Functions    |  <input type="checkbox" checked/> x |                |   Filesystems    | <input type="checkbox" unchecked/> |
+|              |     Scope      |  <input type="checkbox" checked/> x |                |   Permissions    | <input type="checkbox" unchecked/> |
+|              | Test and Debug |  <input type="checkbox" checked/> x |                |     Programs     | <input type="checkbox" unchecked/> |
+|              |   Computing    |  <input type="checkbox" checked/> x |                | Package Managers | <input type="checkbox" unchecked/> |
+|              |  Comparisons   |  <input type="checkbox" checked/> x |                |                  |                                    |
+|              |     Loops      |  <input type="checkbox" checked/> x |                |                  |                                    |
+|              |     Lists      |  <input type="checkbox" checked/> x |                |                  |                                    |
+|              |  Dictionaries  | <input type="checkbox" unchecked/>  |                |                  |                                    |
 |              |      Sets      | <input type="checkbox" unchecked/> |                |                  |                                    |
 |              |     Errors     | <input type="checkbox" unchecked/> |                |                  |                                    |
 |              |   Challenges   | <input type="checkbox" unchecked/> |                |                  |                                    |
@@ -30,6 +30,8 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 ## At the beginning and end of each section you will see:
 
 ### <div align="center"> "All <span style="color:#ECAD35">Solution</span> work done by <span style="color:#ECAD35">Sara Eilenstine</span>. All <span style="color:#0F77A5">**course work**</span>, instruction and media are through <a href="https://www.boot.dev/"><span style="color:#0F77A5">**Boot.dev**</span></a>!"</div>
+
+
 
 ### **Key to Text Color**
 
@@ -41,6 +43,8 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 | <span style="color:#0F77A5">**#0F77A5**</span> | <span style="color:#0F77A5">**Dark Teal**</span> |    <span style="color:#0F77A5">**Boot.dev**</span>     |
 
 ## How to move through my work:
+
+
 
 <br>
 
