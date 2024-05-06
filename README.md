@@ -1,8 +1,8 @@
 ![alt text](img/image-3.png)
 
-# <div align="center">Learning Backend Engineering from <span style="color:#0F77A5">**Boot.dev**</span>
+# Learning Backend Engineering from <span style="color:#0F77A5">**Boot.dev**</span>
 
-### <div align="center">Or as they like to say,<span style="color:#0F77A5"> _**"Learn back-end development the addictive way"**_</span></span>
+### Or as they like to say,<span style="color:#0F77A5"> _**"Learn back-end development the addictive way"**_</span>
 
 # Progress Tracker
 
