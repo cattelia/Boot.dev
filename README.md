@@ -22,7 +22,7 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 |                 |     Loops      | <input type="checkbox" checked/> x |                   |                  |                                    |
 |                 |     Lists      | <input type="checkbox" checked/> x |                   |                  |                                    |
 |                 |  Dictionaries  | <input type="checkbox" checked/> x |                   |                  |                                    |
-|                 |      Sets      | <input type="checkbox" unchecked/> |                   |                  |                                    |
+|                 |      Sets      | <input type="checkbox" checked/> x |                   |                  |                                    |
 |                 |     Errors     | <input type="checkbox" unchecked/> |                   |                  |                                    |
 |                 |   Challenges   | <input type="checkbox" unchecked/> |                   |                  |                                    |
 |                 |      Quiz      | <input type="checkbox" unchecked/> |                   |                  |                                    |
