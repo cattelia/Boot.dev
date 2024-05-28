@@ -11,21 +11,31 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 
 | First Course    |   Sub-Course   |              Complete              | Second Course     |    Sub-Course    |              Complete              |
 | :-------------- | :------------: | :--------------------------------: | :---------------- | :--------------: | :--------------------------------: |
-| 0. Learn Python |                | <input type="checkbox" unchecked/> | 1. Learn Terminal |                  | <input type="checkbox" unchecked/> |
+| 1. Learn Python |                | <input type="checkbox" checked/> x | 2. Learn Terminal |                  | <input type="checkbox" unchecked/> |
 |                 |  Introduction  | <input type="checkbox" checked/> x |                   |    Terminals     | <input type="checkbox" unchecked/> |
 |                 |   Variables    | <input type="checkbox" checked/> x |                   |      Shells      | <input type="checkbox" unchecked/> |
-|                 |   Functions    | <input type="checkbox" checked/> x |                   |   Filesystems    | <input type="checkbox" unchecked/> |
+|                 |   Functions    | <input type="checkbox" checked/> x |                   |   File Systems   | <input type="checkbox" unchecked/> |
 |                 |     Scope      | <input type="checkbox" checked/> x |                   |   Permissions    | <input type="checkbox" unchecked/> |
 |                 | Test and Debug | <input type="checkbox" checked/> x |                   |     Programs     | <input type="checkbox" unchecked/> |
-|                 |   Computing    | <input type="checkbox" checked/> x |                   | Package Managers | <input type="checkbox" unchecked/> |
+|                 |   Computing    | <input type="checkbox" checked/> x |                   | Package Programs | <input type="checkbox" unchecked/> |
 |                 |  Comparisons   | <input type="checkbox" checked/> x |                   |                  |                                    |
 |                 |     Loops      | <input type="checkbox" checked/> x |                   |                  |                                    |
 |                 |     Lists      | <input type="checkbox" checked/> x |                   |                  |                                    |
 |                 |  Dictionaries  | <input type="checkbox" checked/> x |                   |                  |                                    |
 |                 |      Sets      | <input type="checkbox" checked/> x |                   |                  |                                    |
-|                 |     Errors     | <input type="checkbox" unchecked/> |                   |                  |                                    |
-|                 |   Challenges   | <input type="checkbox" unchecked/> |                   |                  |                                    |
-|                 |      Quiz      | <input type="checkbox" unchecked/> |                   |                  |                                    |
+|                 |     Errors     | <input type="checkbox" checked/> x |                   |                  |                                    |
+|                 |   Challenges   | <input type="checkbox" checked/> x |                   |                  |                                    |
+|                 |      Quiz      | <input type="checkbox" checked/> x |                   |                  |                                    |
+
+| Third Course | Sub-Course |              Complete              | First Guided Project | Sub-Course |              Complete              |
+| :----------- | :--------: | :--------------------------------: | :------------------- | :--------: | :--------------------------------: |
+| 3. Learn Git |            | <input type="checkbox" unchecked/> | 4. Build a Bookbot   |            | <input type="checkbox" unchecked/> |
+|              |    ---     | <input type="checkbox" unchecked/> |                      |    ---     | <input type="checkbox" unchecked/> |
+|              |    ---     | <input type="checkbox" unchecked/> |                      |    ---     | <input type="checkbox" unchecked/> |
+|              |    ---     | <input type="checkbox" unchecked/> |                      |    ---     | <input type="checkbox" unchecked/> |
+|              |    ---     | <input type="checkbox" unchecked/> |                      |    ---     | <input type="checkbox" unchecked/> |
+|              |    ---     | <input type="checkbox" unchecked/> |                      |    ---     | <input type="checkbox" unchecked/> |
+|              |    ---     | <input type="checkbox" unchecked/> |                      |    ---     | <input type="checkbox" unchecked/> |
 
 ## At the beginning and end of each section you will see:
 
