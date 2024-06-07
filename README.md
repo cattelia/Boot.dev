@@ -9,39 +9,39 @@
 <span style="color:#ECAD35">**Updated as of: 2024-05-09**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
-| First Course    |  Sub-Course  |              Complete              | Second Course      |  Sub-Course  |              Complete              |
-| :-------------- | :----------: | :--------------------------------: | :----------------- | :----------: | :--------------------------------: |
-| 1. Learn Python |              | <input type="checkbox" checked/> x | 2. Learn Terminal  |              | <input type="checkbox" unchecked/> |
-|                 | Introduction | <input type="checkbox" checked/> x |                    |  Terminals   |  <input type="checkbox" checked/>  |
-|                 |  Variables   | <input type="checkbox" checked/> x |                    |    Shells    |  <input type="checkbox" checked/>  |
-|                 |  Functions   | <input type="checkbox" checked/> x |                    | File Systems |  <input type="checkbox" checked/>  |
-|                 |    Scope     | <input type="checkbox" checked/> x |                    | Permissions  |  <input type="checkbox" checked/>  |
-|                 |   Testing    | <input type="checkbox" checked/> x |                    |   Programs   | <input type="checkbox" unchecked/> |
-|                 |  Computing   | <input type="checkbox" checked/> x |                    |   Packages   | <input type="checkbox" unchecked/> |
-|                 | Comparisons  | <input type="checkbox" checked/> x |                    |              |                                    |
-|                 |    Loops     | <input type="checkbox" checked/> x |                    |              |                                    |
-|                 |    Lists     | <input type="checkbox" checked/> x |                    |              |                                    |
-|                 | Dictionaries | <input type="checkbox" checked/> x |                    |              |                                    |
-|                 |     Sets     | <input type="checkbox" checked/> x |                    |              |                                    |
-|                 |    Errors    | <input type="checkbox" checked/> x |                    |              |                                    |
-|                 |  Challenges  | <input type="checkbox" checked/> x |                    |              |                                    |
-|                 |     Quiz     | <input type="checkbox" checked/> x |                    |              |                                    |
-| :-------------  | :----------: | :--------------------------------: | :----------------- |  :--------:  | :--------------------------------: |
-| Third Course    |  Sub-Course  |              Complete              | Guided Project     |  Sub-Course  |              Complete              |
-| :-------------  | :----------: | :--------------------------------: | :----------------- |  :--------:  | :--------------------------------: |
-| 3. Learn Git    |              | <input type="checkbox" unchecked/> | 4. Build a Bookbot |              | <input type="checkbox" unchecked/> |
-|                 |    Setup     | <input type="checkbox" unchecked/> |                    |   Guide 1    | <input type="checkbox" unchecked/> |
-|                 | Repositories | <input type="checkbox" unchecked/> |                    |   Guide 2    | <input type="checkbox" unchecked/> |
-|                 |  Internals   | <input type="checkbox" unchecked/> |                    |   Guide 3    | <input type="checkbox" unchecked/> |
-|                 |    Config    | <input type="checkbox" unchecked/> |                    |   Guide 4    | <input type="checkbox" unchecked/> |
-|                 |  Branching   | <input type="checkbox" unchecked/> |                    |   Guide 5    | <input type="checkbox" unchecked/> |
-|                 |    Merge     | <input type="checkbox" unchecked/> |                    |   Guide 6    | <input type="checkbox" unchecked/> |
-|                 |    Rebase    | <input type="checkbox" unchecked/> |                    |   Guide 7    | <input type="checkbox" unchecked/> |
-|                 |    Reset     | <input type="checkbox" unchecked/> |                    |   Guide 8    | <input type="checkbox" unchecked/> |
-|                 |    Remote    | <input type="checkbox" unchecked/> |                    |   Guide 9    | <input type="checkbox" unchecked/> |
-|                 |    GitHub    | <input type="checkbox" unchecked/> |                    |   Guide 10   | <input type="checkbox" unchecked/> |
-|                 |              | <input type="checkbox" unchecked/> |                    |   Guide 11   | <input type="checkbox" unchecked/> |
-|                 |              |                                    |                    |   Guide 12   | <input type="checkbox" unchecked/> |
+| First Course    |  Sub-Course  |              Complete              | Second Course     |  Sub-Course  |              Complete              |
+| :-------------- | :----------: | :--------------------------------: | :---------------- | :----------: | :--------------------------------: |
+| 1. Learn Python |              | <input type="checkbox" checked/> x | 2. Learn Terminal |              | <input type="checkbox" unchecked/> |
+|                 | Introduction | <input type="checkbox" checked/> x |                   |  Terminals   |  <input type="checkbox" checked/>  |
+|                 |  Variables   | <input type="checkbox" checked/> x |                   |    Shells    |  <input type="checkbox" checked/>  |
+|                 |  Functions   | <input type="checkbox" checked/> x |                   | File Systems |  <input type="checkbox" checked/>  |
+|                 |    Scope     | <input type="checkbox" checked/> x |                   | Permissions  |  <input type="checkbox" checked/>  |
+|                 |   Testing    | <input type="checkbox" checked/> x |                   |   Programs   | <input type="checkbox" unchecked/> |
+|                 |  Computing   | <input type="checkbox" checked/> x |                   |   Packages   | <input type="checkbox" unchecked/> |
+|                 | Comparisons  | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |    Loops     | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |    Lists     | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 | Dictionaries | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |     Sets     | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |    Errors    | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |  Challenges  | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |     Quiz     | <input type="checkbox" checked/> x |                   |              |                                    |
+
+| Third Course |  Sub-Course  |              Complete              | Guided Project     | Sub-Course |              Complete              |
+| :----------- | :----------: | :--------------------------------: | :----------------- | :--------: | :--------------------------------: |
+| 3. Learn Git |              | <input type="checkbox" unchecked/> | 4. Build a Bookbot |            | <input type="checkbox" unchecked/> |
+|              |    Setup     | <input type="checkbox" unchecked/> |                    |  Guide 1   | <input type="checkbox" unchecked/> |
+|              | Repositories | <input type="checkbox" unchecked/> |                    |  Guide 2   | <input type="checkbox" unchecked/> |
+|              |  Internals   | <input type="checkbox" unchecked/> |                    |  Guide 3   | <input type="checkbox" unchecked/> |
+|              |    Config    | <input type="checkbox" unchecked/> |                    |  Guide 4   | <input type="checkbox" unchecked/> |
+|              |  Branching   | <input type="checkbox" unchecked/> |                    |  Guide 5   | <input type="checkbox" unchecked/> |
+|              |    Merge     | <input type="checkbox" unchecked/> |                    |  Guide 6   | <input type="checkbox" unchecked/> |
+|              |    Rebase    | <input type="checkbox" unchecked/> |                    |  Guide 7   | <input type="checkbox" unchecked/> |
+|              |    Reset     | <input type="checkbox" unchecked/> |                    |  Guide 8   | <input type="checkbox" unchecked/> |
+|              |    Remote    | <input type="checkbox" unchecked/> |                    |  Guide 9   | <input type="checkbox" unchecked/> |
+|              |    GitHub    | <input type="checkbox" unchecked/> |                    |  Guide 10  | <input type="checkbox" unchecked/> |
+|              |              | <input type="checkbox" unchecked/> |                    |  Guide 11  | <input type="checkbox" unchecked/> |
+|              |              |                                    |                    |  Guide 12  | <input type="checkbox" unchecked/> |
 
 ## At the beginning and end of each section you will see:
 
