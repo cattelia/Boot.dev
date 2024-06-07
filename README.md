@@ -12,10 +12,10 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 | First Course    |  Sub-Course  |              Complete              | Second Course     |  Sub-Course  |              Complete              |
 | :-------------- | :----------: | :--------------------------------: | :---------------- | :----------: | :--------------------------------: |
 | 1. Learn Python |              | <input type="checkbox" checked/> x | 2. Learn Terminal |              | <input type="checkbox" unchecked/> |
-|                 | Introduction | <input type="checkbox" checked/> x |                   |  Terminals   |  <input type="checkbox" checked/>  |
-|                 |  Variables   | <input type="checkbox" checked/> x |                   |    Shells    |  <input type="checkbox" checked/>  |
-|                 |  Functions   | <input type="checkbox" checked/> x |                   | File Systems |  <input type="checkbox" checked/>  |
-|                 |    Scope     | <input type="checkbox" checked/> x |                   | Permissions  |  <input type="checkbox" checked/>  |
+|                 | Introduction | <input type="checkbox" checked/> x |                   |  Terminals   | <input type="checkbox" checked/> x |
+|                 |  Variables   | <input type="checkbox" checked/> x |                   |    Shells    | <input type="checkbox" checked/> x |
+|                 |  Functions   | <input type="checkbox" checked/> x |                   | File Systems | <input type="checkbox" checked/> x |
+|                 |    Scope     | <input type="checkbox" checked/> x |                   | Permissions  | <input type="checkbox" checked/> x |
 |                 |   Testing    | <input type="checkbox" checked/> x |                   |   Programs   | <input type="checkbox" unchecked/> |
 |                 |  Computing   | <input type="checkbox" checked/> x |                   |   Packages   | <input type="checkbox" unchecked/> |
 |                 | Comparisons  | <input type="checkbox" checked/> x |                   |              |                                    |
