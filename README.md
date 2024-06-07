@@ -27,21 +27,21 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 |                 |  Challenges  | <input type="checkbox" checked/> x |                   |              |                                    |
 |                 |     Quiz     | <input type="checkbox" checked/> x |                   |              |                                    |
 
-| Third Course | Sub-Course |              Complete              | Guided Project     | Sub-Course |              Complete              |
-| :----------- | :--------: | :--------------------------------: | :----------------- | :--------: | :--------------------------------: |
-| 3. Learn Git |            | <input type="checkbox" unchecked/> | 4. Build a Bookbot |            | <input type="checkbox" unchecked/> |
-|              |   Setup    | <input type="checkbox" unchecked/> |                    |  Guide 1   | <input type="checkbox" unchecked/> |
-|              | Repository | <input type="checkbox" unchecked/> |                    |  Guide 2   | <input type="checkbox" unchecked/> |
-|              | Internals  | <input type="checkbox" unchecked/> |                    |  Guide 3   | <input type="checkbox" unchecked/> |
-|              |   Config   | <input type="checkbox" unchecked/> |                    |  Guide 4   | <input type="checkbox" unchecked/> |
-|              | Branching  | <input type="checkbox" unchecked/> |                    |  Guide 5   | <input type="checkbox" unchecked/> |
-|              |   Merge    | <input type="checkbox" unchecked/> |                    |  Guide 6   | <input type="checkbox" unchecked/> |
-|              |   Rebase   | <input type="checkbox" unchecked/> |                    |  Guide 7   | <input type="checkbox" unchecked/> |
-|              |   Reset    | <input type="checkbox" unchecked/> |                    |  Guide 8   | <input type="checkbox" unchecked/> |
-|              |   Remote   | <input type="checkbox" unchecked/> |                    |  Guide 9   | <input type="checkbox" unchecked/> |
-|              |   GitHub   | <input type="checkbox" unchecked/> |                    |  Guide 10  | <input type="checkbox" unchecked/> |
-|              |            | <input type="checkbox" unchecked/> |                    |  Guide 11  | <input type="checkbox" unchecked/> |
-|              |            |                                    |                    |  Guide 12  | <input type="checkbox" unchecked/> |
+| Third Course |  Sub-Course  |              Complete              | Guided Project     | Sub-Course |              Complete              |
+| :----------- | :----------: | :--------------------------------: | :----------------- | :--------: | :--------------------------------: |
+| 3. Learn Git |              | <input type="checkbox" unchecked/> | 4. Build a Bookbot |            | <input type="checkbox" unchecked/> |
+|              |    Setup     | <input type="checkbox" unchecked/> |                    |  Guide 1   | <input type="checkbox" unchecked/> |
+|              | Repositories | <input type="checkbox" unchecked/> |                    |  Guide 2   | <input type="checkbox" unchecked/> |
+|              |  Internals   | <input type="checkbox" unchecked/> |                    |  Guide 3   | <input type="checkbox" unchecked/> |
+|              |    Config    | <input type="checkbox" unchecked/> |                    |  Guide 4   | <input type="checkbox" unchecked/> |
+|              |  Branching   | <input type="checkbox" unchecked/> |                    |  Guide 5   | <input type="checkbox" unchecked/> |
+|              |    Merge     | <input type="checkbox" unchecked/> |                    |  Guide 6   | <input type="checkbox" unchecked/> |
+|              |    Rebase    | <input type="checkbox" unchecked/> |                    |  Guide 7   | <input type="checkbox" unchecked/> |
+|              |    Reset     | <input type="checkbox" unchecked/> |                    |  Guide 8   | <input type="checkbox" unchecked/> |
+|              |    Remote    | <input type="checkbox" unchecked/> |                    |  Guide 9   | <input type="checkbox" unchecked/> |
+|              |    GitHub    | <input type="checkbox" unchecked/> |                    |  Guide 10  | <input type="checkbox" unchecked/> |
+|              |              | <input type="checkbox" unchecked/> |                    |  Guide 11  | <input type="checkbox" unchecked/> |
+|              |              |                                    |                    |  Guide 12  | <input type="checkbox" unchecked/> |
 
 ## At the beginning and end of each section you will see:
 
