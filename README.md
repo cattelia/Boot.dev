@@ -9,23 +9,23 @@
 <span style="color:#ECAD35">**Updated as of: 2024-05-09**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
-| First Course    |   Sub-Course   |              Complete              | Second Course     |  Sub-Course  |              Complete              |
-| :-------------- | :------------: | :--------------------------------: | :---------------- | :----------: | :--------------------------------: |
-| 1. Learn Python |                | <input type="checkbox" checked/> x | 2. Learn Terminal |              | <input type="checkbox" unchecked/> |
-|                 |  Introduction  | <input type="checkbox" checked/> x |                   |  Terminals   |  <input type="checkbox" checked/>  |
-|                 |   Variables    | <input type="checkbox" checked/> x |                   |    Shells    |  <input type="checkbox" checked/>  |
-|                 |   Functions    | <input type="checkbox" checked/> x |                   | File Systems |  <input type="checkbox" checked/>  |
-|                 |     Scope      | <input type="checkbox" checked/> x |                   | Permissions  |  <input type="checkbox" checked/>  |
-|                 | Test and Debug | <input type="checkbox" checked/> x |                   |   Programs   | <input type="checkbox" unchecked/> |
-|                 |   Computing    | <input type="checkbox" checked/> x |                   |   Packages   | <input type="checkbox" unchecked/> |
-|                 |  Comparisons   | <input type="checkbox" checked/> x |                   |              |                                    |
-|                 |     Loops      | <input type="checkbox" checked/> x |                   |              |                                    |
-|                 |     Lists      | <input type="checkbox" checked/> x |                   |              |                                    |
-|                 |  Dictionaries  | <input type="checkbox" checked/> x |                   |              |                                    |
-|                 |      Sets      | <input type="checkbox" checked/> x |                   |              |                                    |
-|                 |     Errors     | <input type="checkbox" checked/> x |                   |              |                                    |
-|                 |   Challenges   | <input type="checkbox" checked/> x |                   |              |                                    |
-|                 |      Quiz      | <input type="checkbox" checked/> x |                   |              |                                    |
+| First Course    |  Sub-Course  |              Complete              | Second Course     |  Sub-Course  |              Complete              |
+| :-------------- | :----------: | :--------------------------------: | :---------------- | :----------: | :--------------------------------: |
+| 1. Learn Python |              | <input type="checkbox" checked/> x | 2. Learn Terminal |              | <input type="checkbox" unchecked/> |
+|                 | Introduction | <input type="checkbox" checked/> x |                   |  Terminals   |  <input type="checkbox" checked/>  |
+|                 |  Variables   | <input type="checkbox" checked/> x |                   |    Shells    |  <input type="checkbox" checked/>  |
+|                 |  Functions   | <input type="checkbox" checked/> x |                   | File Systems |  <input type="checkbox" checked/>  |
+|                 |    Scope     | <input type="checkbox" checked/> x |                   | Permissions  |  <input type="checkbox" checked/>  |
+|                 |   Testing    | <input type="checkbox" checked/> x |                   |   Programs   | <input type="checkbox" unchecked/> |
+|                 |  Computing   | <input type="checkbox" checked/> x |                   |   Packages   | <input type="checkbox" unchecked/> |
+|                 | Comparisons  | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |    Loops     | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |    Lists     | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 | Dictionaries | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |     Sets     | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |    Errors    | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |  Challenges  | <input type="checkbox" checked/> x |                   |              |                                    |
+|                 |     Quiz     | <input type="checkbox" checked/> x |                   |              |                                    |
 
 | Third Course | Sub-Course |              Complete              | Guided Project     | Sub-Course |              Complete              |
 | :----------- | :--------: | :--------------------------------: | :----------------- | :--------: | :--------------------------------: |
