@@ -6,18 +6,18 @@
 
 # Progress Tracker
 
-<span style="color:#ECAD35">**Updated as of: 2024-06-07**</span><br>
+<span style="color:#ECAD35">**Updated as of: 2024-06-13**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
 | First Course    |  Sub-Course  |              Complete              | Second Course     |  Sub-Course  |              Complete              |
 | :-------------- | :----------: | :--------------------------------: | :---------------- | :----------: | :--------------------------------: |
-| 1. Learn Python |              | <input type="checkbox" checked/> x | 2. Learn Terminal |              | <input type="checkbox" unchecked/> |
+| 1. Learn Python |              | <input type="checkbox" checked/> x | 2. Learn Terminal |              | <input type="checkbox" checked/> x |
 |                 | Introduction | <input type="checkbox" checked/> x |                   |  Terminals   | <input type="checkbox" checked/> x |
 |                 |  Variables   | <input type="checkbox" checked/> x |                   |    Shells    | <input type="checkbox" checked/> x |
 |                 |  Functions   | <input type="checkbox" checked/> x |                   | File Systems | <input type="checkbox" checked/> x |
 |                 |    Scope     | <input type="checkbox" checked/> x |                   | Permissions  | <input type="checkbox" checked/> x |
-|                 |   Testing    | <input type="checkbox" checked/> x |                   |   Programs   | <input type="checkbox" unchecked/> |
-|                 |  Computing   | <input type="checkbox" checked/> x |                   |   Packages   | <input type="checkbox" unchecked/> |
+|                 |   Testing    | <input type="checkbox" checked/> x |                   |   Programs   | <input type="checkbox" checked/> x |
+|                 |  Computing   | <input type="checkbox" checked/> x |                   |   Packages   | <input type="checkbox" checked/> x |
 |                 | Comparisons  | <input type="checkbox" checked/> x |                   |              |                                    |
 |                 |    Loops     | <input type="checkbox" checked/> x |                   |              |                                    |
 |                 |    Lists     | <input type="checkbox" checked/> x |                   |              |                                    |
