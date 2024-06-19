@@ -6,7 +6,7 @@
 
 # Progress Tracker
 
-<span style="color:#ECAD35">**Updated as of: 2024-06-13**</span><br>
+<span style="color:#ECAD35">**Updated as of: 2024-06-19**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
 | First Course    |  Sub-Course  |              Complete              | Second Course     |  Sub-Course  |              Complete              |
@@ -30,12 +30,12 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 | Third Course |  Sub-Course  |              Complete              | Guided Project     | Sub-Course |              Complete              |
 | :----------- | :----------: | :--------------------------------: | :----------------- | :--------: | :--------------------------------: |
 | 3. Learn Git |              | <input type="checkbox" unchecked/> | 4. Build a Bookbot |            | <input type="checkbox" unchecked/> |
-|              |    Setup     | <input type="checkbox" unchecked/> |                    |  Guide 1   | <input type="checkbox" unchecked/> |
-|              | Repositories | <input type="checkbox" unchecked/> |                    |  Guide 2   | <input type="checkbox" unchecked/> |
-|              |  Internals   | <input type="checkbox" unchecked/> |                    |  Guide 3   | <input type="checkbox" unchecked/> |
-|              |    Config    | <input type="checkbox" unchecked/> |                    |  Guide 4   | <input type="checkbox" unchecked/> |
-|              |  Branching   | <input type="checkbox" unchecked/> |                    |  Guide 5   | <input type="checkbox" unchecked/> |
-|              |    Merge     | <input type="checkbox" unchecked/> |                    |  Guide 6   | <input type="checkbox" unchecked/> |
+|              |    Setup     | <input type="checkbox" checked/> x |                    |  Guide 1   | <input type="checkbox" unchecked/> |
+|              | Repositories | <input type="checkbox" checked/> x |                    |  Guide 2   | <input type="checkbox" unchecked/> |
+|              |  Internals   | <input type="checkbox" checked/> x |                    |  Guide 3   | <input type="checkbox" unchecked/> |
+|              |    Config    | <input type="checkbox" checked/> x |                    |  Guide 4   | <input type="checkbox" unchecked/> |
+|              |  Branching   | <input type="checkbox" checked/> x |                    |  Guide 5   | <input type="checkbox" unchecked/> |
+|              |    Merge     | <input type="checkbox" checked/> x |                    |  Guide 6   | <input type="checkbox" unchecked/> |
 |              |    Rebase    | <input type="checkbox" unchecked/> |                    |  Guide 7   | <input type="checkbox" unchecked/> |
 |              |    Reset     | <input type="checkbox" unchecked/> |                    |  Guide 8   | <input type="checkbox" unchecked/> |
 |              |    Remote    | <input type="checkbox" unchecked/> |                    |  Guide 9   | <input type="checkbox" unchecked/> |
