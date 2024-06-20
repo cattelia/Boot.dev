@@ -6,7 +6,7 @@
 
 # Progress Tracker
 
-<span style="color:#ECAD35">**Updated as of: 2024-06-19**</span><br>
+<span style="color:#ECAD35">**Updated as of: 2024-06-20**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
 | First Course    |  Sub-Course  |              Complete              | Second Course     |  Sub-Course  |              Complete              |
@@ -36,11 +36,11 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 |              |    Config    | <input type="checkbox" checked/> x |                    |  Guide 4   | <input type="checkbox" unchecked/> |
 |              |  Branching   | <input type="checkbox" checked/> x |                    |  Guide 5   | <input type="checkbox" unchecked/> |
 |              |    Merge     | <input type="checkbox" checked/> x |                    |  Guide 6   | <input type="checkbox" unchecked/> |
-|              |    Rebase    | <input type="checkbox" unchecked/> |                    |  Guide 7   | <input type="checkbox" unchecked/> |
-|              |    Reset     | <input type="checkbox" unchecked/> |                    |  Guide 8   | <input type="checkbox" unchecked/> |
-|              |    Remote    | <input type="checkbox" unchecked/> |                    |  Guide 9   | <input type="checkbox" unchecked/> |
+|              |    Rebase    | <input type="checkbox" checked/> x |                    |  Guide 7   | <input type="checkbox" unchecked/> |
+|              |    Reset     | <input type="checkbox" checked/> x |                    |  Guide 8   | <input type="checkbox" unchecked/> |
+|              |    Remote    | <input type="checkbox" checked/> x |                    |  Guide 9   | <input type="checkbox" unchecked/> |
 |              |    GitHub    | <input type="checkbox" unchecked/> |                    |  Guide 10  | <input type="checkbox" unchecked/> |
-|              |              | <input type="checkbox" unchecked/> |                    |  Guide 11  | <input type="checkbox" unchecked/> |
+|              |  GitIgnore   | <input type="checkbox" unchecked/> |                    |  Guide 11  | <input type="checkbox" unchecked/> |
 |              |              |                                    |                    |  Guide 12  | <input type="checkbox" unchecked/> |
 
 ## At the beginning and end of each section you will see:
