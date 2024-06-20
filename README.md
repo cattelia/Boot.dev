@@ -70,19 +70,20 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 
 # How to move through my work:
 
-## File Name: `General Studies`
+## `x.y Title` <br>
 
-This file is the everyday studies that Boot.dev had me work through to learn the basics and fundamentals of the languages or concepts that I was working on. Here you will find them in numberical order based on sequence of learning. <br>
+`x` represents the Topic, which you can see that reflect in the table above on the left hand column.
+`y` represents the Subtopics, which is the the right hand column with all the lessons to be taught.
 
-## `x.y.z Title` <br>
+| `x` First Course  | `y` Sub-Courses |
+| :---------------- | :-------------: |
+| 1. Learn Python   |      1 - 5      |
+| 2. Learn Terminal |      1 - 4      |
+| 3. Learn Git      |     1 - 11      |
 
-`x` starts at `0`, which is the very first lesson and you can see that reflect in the table above.
+## File Name such as: `worldbanc` or `webflyx` and so on...
 
-| First Course    | Sub-Course |
-| :-------------- | :--------: |
-| 0. Learn Python |            |
-
-## File Name: `Projects`
+These files are the curated study material that Boot.dev had me work through to learn the basics and fundamentals of the languages or concepts that I was working on. They are located in the file that they were meant to be used for.
 
 <br>
 
