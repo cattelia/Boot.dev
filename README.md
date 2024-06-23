@@ -6,7 +6,7 @@
 
 # Progress Tracker
 
-<span style="color:#ECAD35">**Updated as of: 2024-06-22**</span><br>
+<span style="color:#ECAD35">**Updated as of: 2024-06-23**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
 | First Course    |  Sub-Course  |              Complete              | Second Course     |  Sub-Course  |              Complete              |
@@ -29,19 +29,18 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 
 | Third Course |  Sub-Course  |              Complete              | Guided Project     |         Sub-Course         |              Complete              |
 | :----------- | :----------: | :--------------------------------: | :----------------- | :------------------------: | :--------------------------------: |
-| 3. Learn Git |              | <input type="checkbox" checked/> x | 4. Build a Bookbot |                            | <input type="checkbox" unchecked/> |
+| 3. Learn Git |              | <input type="checkbox" checked/> x | 4. Build a Bookbot |                            | <input type="checkbox" checked/> x |
 |              |    Setup     | <input type="checkbox" checked/> x |                    | Guide 1: Setup Local Files | <input type="checkbox" checked/> x |
 |              | Repositories | <input type="checkbox" checked/> x |                    |     Guide 2: Make Repo     | <input type="checkbox" checked/> x |
 |              |  Internals   | <input type="checkbox" checked/> x |                    |    Guide 3: Clone Repo     | <input type="checkbox" checked/> x |
-|              |    Config    | <input type="checkbox" checked/> x |                    |  Guide 4: Install Python   | <input type="checkbox" unchecked/> |
-|              |  Branching   | <input type="checkbox" checked/> x |                    |          Guide 5           | <input type="checkbox" unchecked/> |
-|              |    Merge     | <input type="checkbox" checked/> x |                    |          Guide 6           | <input type="checkbox" unchecked/> |
-|              |    Rebase    | <input type="checkbox" checked/> x |                    |          Guide 7           | <input type="checkbox" unchecked/> |
-|              |    Reset     | <input type="checkbox" checked/> x |                    |          Guide 8           | <input type="checkbox" unchecked/> |
-|              |    Remote    | <input type="checkbox" checked/> x |                    |          Guide 9           | <input type="checkbox" unchecked/> |
-|              |    GitHub    | <input type="checkbox" checked/> x |                    |          Guide 10          | <input type="checkbox" unchecked/> |
-|              |  GitIgnore   | <input type="checkbox" checked/> x |                    |          Guide 11          | <input type="checkbox" unchecked/> |
-|              |              |                                    |                    |          Guide 12          | <input type="checkbox" unchecked/> |
+|              |    Config    | <input type="checkbox" checked/> x |                    |  Guide 4: Install Python   | <input type="checkbox" checked/> x |
+|              |  Branching   | <input type="checkbox" checked/> x |                    |  Guide 5: Running Python   | <input type="checkbox" checked/> x |
+|              |    Merge     | <input type="checkbox" checked/> x |                    |     Guide 6: Read File     | <input type="checkbox" checked/> x |
+|              |    Rebase    | <input type="checkbox" checked/> x |                    |    Guide 7: Count Words    | <input type="checkbox" checked/> x |
+|              |    Reset     | <input type="checkbox" checked/> x |                    | Guide 8: Count Characters  | <input type="checkbox" checked/> x |
+|              |    Remote    | <input type="checkbox" checked/> x |                    |   Guide 9: Print Report    | <input type="checkbox" checked/> x |
+|              |    GitHub    | <input type="checkbox" checked/> x |                    |    Guide 10: Submit Bot    | <input type="checkbox" checked/> x |
+|              |  GitIgnore   | <input type="checkbox" checked/> x |                    |  Guide 11: Commit to Git   | <input type="checkbox" checked/> x |
 
 ## At the beginning and end of each section you will see:
 
