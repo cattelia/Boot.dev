@@ -29,7 +29,7 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 
 | Third Course |  Sub-Course  |              Complete              | Guided Project     |         Sub-Course         |              Complete              |
 | :----------- | :----------: | :--------------------------------: | :----------------- | :------------------------: | :--------------------------------: |
-| 3. Learn Git |              | <input type="checkbox" checked/> x | 4. Build a Bookbot |                            | <input type="checkbox" checked/> x |
+| 3. Learn Git |              | <input type="checkbox" checked/> x | 4. <a href="https://github.com/cattelia/bookbot">Build a Bookbot</a> |                            | <input type="checkbox" checked/> x |
 |              |    Setup     | <input type="checkbox" checked/> x |                    | Guide 1: Setup Local Files | <input type="checkbox" checked/> x |
 |              | Repositories | <input type="checkbox" checked/> x |                    |     Guide 2: Make Repo     | <input type="checkbox" checked/> x |
 |              |  Internals   | <input type="checkbox" checked/> x |                    |    Guide 3: Clone Repo     | <input type="checkbox" checked/> x |
@@ -79,7 +79,7 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 | 1. Learn Python    |      1 - 5      |
 | 2. Learn Terminal  |      1 - 4      |
 | 3. Learn Git       |     1 - 10      |
-| 4. Project Bookbot |        ∞        |
+| 4. Project Bookbot |     1 - 11      |
 
 ## File Name such as: `worldbanc` or `webflyx` and so on...
 
