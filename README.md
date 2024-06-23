@@ -27,21 +27,21 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 |                 |  Challenges  | <input type="checkbox" checked/> x |                   |              |                                    |
 |                 |     Quiz     | <input type="checkbox" checked/> x |                   |              |                                    |
 
-| Third Course |  Sub-Course  |              Complete              | Guided Project     | Sub-Course |              Complete              |
-| :----------- | :----------: | :--------------------------------: | :----------------- | :--------: | :--------------------------------: |
-| 3. Learn Git |              | <input type="checkbox" checked/> x | 4. Build a Bookbot |            | <input type="checkbox" unchecked/> |
-|              |    Setup     | <input type="checkbox" checked/> x |                    |  Guide 1   | <input type="checkbox" unchecked/> |
-|              | Repositories | <input type="checkbox" checked/> x |                    |  Guide 2   | <input type="checkbox" unchecked/> |
-|              |  Internals   | <input type="checkbox" checked/> x |                    |  Guide 3   | <input type="checkbox" unchecked/> |
-|              |    Config    | <input type="checkbox" checked/> x |                    |  Guide 4   | <input type="checkbox" unchecked/> |
-|              |  Branching   | <input type="checkbox" checked/> x |                    |  Guide 5   | <input type="checkbox" unchecked/> |
-|              |    Merge     | <input type="checkbox" checked/> x |                    |  Guide 6   | <input type="checkbox" unchecked/> |
-|              |    Rebase    | <input type="checkbox" checked/> x |                    |  Guide 7   | <input type="checkbox" unchecked/> |
-|              |    Reset     | <input type="checkbox" checked/> x |                    |  Guide 8   | <input type="checkbox" unchecked/> |
-|              |    Remote    | <input type="checkbox" checked/> x |                    |  Guide 9   | <input type="checkbox" unchecked/> |
-|              |    GitHub    | <input type="checkbox" checked/> x |                    |  Guide 10  | <input type="checkbox" unchecked/> |
-|              |  GitIgnore   | <input type="checkbox" checked/> x |                    |  Guide 11  | <input type="checkbox" unchecked/> |
-|              |              |                                    |                    |  Guide 12  | <input type="checkbox" unchecked/> |
+| Third Course |  Sub-Course  |              Complete              | Guided Project     |         Sub-Course         |              Complete              |
+| :----------- | :----------: | :--------------------------------: | :----------------- | :------------------------: | :--------------------------------: |
+| 3. Learn Git |              | <input type="checkbox" checked/> x | 4. Build a Bookbot |                            | <input type="checkbox" unchecked/> |
+|              |    Setup     | <input type="checkbox" checked/> x |                    | Guide 1: Setup Local Files | <input type="checkbox" checked/> x |
+|              | Repositories | <input type="checkbox" checked/> x |                    |     Guide 2: Make Repo     | <input type="checkbox" checked/> x |
+|              |  Internals   | <input type="checkbox" checked/> x |                    |    Guide 3: Clone Repo     | <input type="checkbox" checked/> x |
+|              |    Config    | <input type="checkbox" checked/> x |                    |  Guide 4: Install Python   | <input type="checkbox" unchecked/> |
+|              |  Branching   | <input type="checkbox" checked/> x |                    |          Guide 5           | <input type="checkbox" unchecked/> |
+|              |    Merge     | <input type="checkbox" checked/> x |                    |          Guide 6           | <input type="checkbox" unchecked/> |
+|              |    Rebase    | <input type="checkbox" checked/> x |                    |          Guide 7           | <input type="checkbox" unchecked/> |
+|              |    Reset     | <input type="checkbox" checked/> x |                    |          Guide 8           | <input type="checkbox" unchecked/> |
+|              |    Remote    | <input type="checkbox" checked/> x |                    |          Guide 9           | <input type="checkbox" unchecked/> |
+|              |    GitHub    | <input type="checkbox" checked/> x |                    |          Guide 10          | <input type="checkbox" unchecked/> |
+|              |  GitIgnore   | <input type="checkbox" checked/> x |                    |          Guide 11          | <input type="checkbox" unchecked/> |
+|              |              |                                    |                    |          Guide 12          | <input type="checkbox" unchecked/> |
 
 ## At the beginning and end of each section you will see:
 
@@ -75,11 +75,12 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 `x` represents the Topic, which you can see that reflect in the table above on the left hand column.
 `y` represents the Subtopics, which is the the right hand column with all the lessons to be taught.
 
-| `x` First Course  | `y` Sub-Courses |
-| :---------------- | :-------------: |
-| 1. Learn Python   |      1 - 5      |
-| 2. Learn Terminal |      1 - 4      |
-| 3. Learn Git      |     1 - 11      |
+| `x` First Course   | `y` Sub-Courses |
+| :----------------- | :-------------: |
+| 1. Learn Python    |      1 - 5      |
+| 2. Learn Terminal  |      1 - 4      |
+| 3. Learn Git       |     1 - 10      |
+| 4. Project Bookbot |        ∞        |
 
 ## File Name such as: `worldbanc` or `webflyx` and so on...
 
