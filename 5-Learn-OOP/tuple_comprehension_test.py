@@ -21,9 +21,7 @@ temp_tuple = ()
 for symbol in SUITS:
     card_list.append(tuple(i for i in RANKS))
 # [('Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King'), 
-# ('Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King'), 
-# ('Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King'), 
-# ('Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King')]
+# ('Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King'), ...
 '''
 for symbol in SUITS:
     for card in RANKS:
