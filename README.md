@@ -47,7 +47,7 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 | 5. Learn OOP |               | <input type="checkbox" unchecked/> | 6. Learn Functional Programming |                                 | <input type="checkbox" unchecked/> |
 |              |    Classes    | <input type="checkbox" checked/> x |                                 | What is Functional Programming? | <input type="checkbox" unchecked/> |
 |              | Encapsulation | <input type="checkbox" checked/> x |                                 |      First Class Functions      | <input type="checkbox" unchecked/> |
-|              |  Abstraction  | <input type="checkbox" unchecked/> |                                 |         Pure Functions          | <input type="checkbox" unchecked/> |
+|              |  Abstraction  | <input type="checkbox" checked/> x |                                 |         Pure Functions          | <input type="checkbox" unchecked/> |
 |              |  Inheritance  | <input type="checkbox" unchecked/> |                                 |           Recursions            | <input type="checkbox" unchecked/> |
 |              | Polymorphism  | <input type="checkbox" unchecked/> |                                 |    Function Transformations     | <input type="checkbox" unchecked/> |
 |              |               |                                    |                                 |            Closures             | <input type="checkbox" unchecked/> |
