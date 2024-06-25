@@ -6,7 +6,7 @@
 
 # Progress Tracker
 
-<span style="color:#ECAD35">**Updated as of: 2024-06-23**</span><br>
+<span style="color:#ECAD35">**Updated as of: 2024-06-25**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
 | First Course    |  Sub-Course  |              Complete              | Second Course     |  Sub-Course  |              Complete              |
@@ -27,20 +27,33 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 |                 |  Challenges  | <input type="checkbox" checked/> x |                   |              |                                    |
 |                 |     Quiz     | <input type="checkbox" checked/> x |                   |              |                                    |
 
-| Third Course |  Sub-Course  |              Complete              | Guided Project     |         Sub-Course         |              Complete              |
-| :----------- | :----------: | :--------------------------------: | :----------------- | :------------------------: | :--------------------------------: |
+| Third Course |  Sub-Course  |              Complete              | Guided Project                                                       |         Sub-Course         |              Complete              |
+| :----------- | :----------: | :--------------------------------: | :------------------------------------------------------------------- | :------------------------: | :--------------------------------: |
 | 3. Learn Git |              | <input type="checkbox" checked/> x | 4. <a href="https://github.com/cattelia/bookbot">Build a Bookbot</a> |                            | <input type="checkbox" checked/> x |
-|              |    Setup     | <input type="checkbox" checked/> x |                    | Guide 1: Setup Local Files | <input type="checkbox" checked/> x |
-|              | Repositories | <input type="checkbox" checked/> x |                    |     Guide 2: Make Repo     | <input type="checkbox" checked/> x |
-|              |  Internals   | <input type="checkbox" checked/> x |                    |    Guide 3: Clone Repo     | <input type="checkbox" checked/> x |
-|              |    Config    | <input type="checkbox" checked/> x |                    |  Guide 4: Install Python   | <input type="checkbox" checked/> x |
-|              |  Branching   | <input type="checkbox" checked/> x |                    |  Guide 5: Running Python   | <input type="checkbox" checked/> x |
-|              |    Merge     | <input type="checkbox" checked/> x |                    |     Guide 6: Read File     | <input type="checkbox" checked/> x |
-|              |    Rebase    | <input type="checkbox" checked/> x |                    |    Guide 7: Count Words    | <input type="checkbox" checked/> x |
-|              |    Reset     | <input type="checkbox" checked/> x |                    | Guide 8: Count Characters  | <input type="checkbox" checked/> x |
-|              |    Remote    | <input type="checkbox" checked/> x |                    |   Guide 9: Print Report    | <input type="checkbox" checked/> x |
-|              |    GitHub    | <input type="checkbox" checked/> x |                    |    Guide 10: Submit Bot    | <input type="checkbox" checked/> x |
-|              |  GitIgnore   | <input type="checkbox" checked/> x |                    |  Guide 11: Commit to Git   | <input type="checkbox" checked/> x |
+|              |    Setup     | <input type="checkbox" checked/> x |                                                                      | Guide 1: Setup Local Files | <input type="checkbox" checked/> x |
+|              | Repositories | <input type="checkbox" checked/> x |                                                                      |     Guide 2: Make Repo     | <input type="checkbox" checked/> x |
+|              |  Internals   | <input type="checkbox" checked/> x |                                                                      |    Guide 3: Clone Repo     | <input type="checkbox" checked/> x |
+|              |    Config    | <input type="checkbox" checked/> x |                                                                      |  Guide 4: Install Python   | <input type="checkbox" checked/> x |
+|              |  Branching   | <input type="checkbox" checked/> x |                                                                      |  Guide 5: Running Python   | <input type="checkbox" checked/> x |
+|              |    Merge     | <input type="checkbox" checked/> x |                                                                      |     Guide 6: Read File     | <input type="checkbox" checked/> x |
+|              |    Rebase    | <input type="checkbox" checked/> x |                                                                      |    Guide 7: Count Words    | <input type="checkbox" checked/> x |
+|              |    Reset     | <input type="checkbox" checked/> x |                                                                      | Guide 8: Count Characters  | <input type="checkbox" checked/> x |
+|              |    Remote    | <input type="checkbox" checked/> x |                                                                      |   Guide 9: Print Report    | <input type="checkbox" checked/> x |
+|              |    GitHub    | <input type="checkbox" checked/> x |                                                                      |    Guide 10: Submit Bot    | <input type="checkbox" checked/> x |
+|              |  GitIgnore   | <input type="checkbox" checked/> x |                                                                      |  Guide 11: Commit to Git   | <input type="checkbox" checked/> x |
+
+| Fifth Course |  Sub-Course   |              Complete              | Sixth Course                    |           Sub-Course            |              Complete              |
+| :----------- | :-----------: | :--------------------------------: | :------------------------------ | :-----------------------------: | :--------------------------------: |
+| 5. Learn OOP |               | <input type="checkbox" unchecked/> | 6. Learn Functional Programming |                                 | <input type="checkbox" unchecked/> |
+|              |    Classes    | <input type="checkbox" checked/> x |                                 | What is Functional Programming? | <input type="checkbox" unchecked/> |
+|              | Encapsulation | <input type="checkbox" checked/> x |                                 |      First Class Functions      | <input type="checkbox" unchecked/> |
+|              |  Abstraction  | <input type="checkbox" unchecked/> |                                 |         Pure Functions          | <input type="checkbox" unchecked/> |
+|              |  Inheritance  | <input type="checkbox" unchecked/> |                                 |           Recursions            | <input type="checkbox" unchecked/> |
+|              | Polymorphism  | <input type="checkbox" unchecked/> |                                 |    Function Transformations     | <input type="checkbox" unchecked/> |
+|              |               |                                    |                                 |            Closures             | <input type="checkbox" unchecked/> |
+|              |               |                                    |                                 |            Currying             | <input type="checkbox" unchecked/> |
+|              |               |                                    |                                 |           Decorators            | <input type="checkbox" unchecked/> |
+|              |               |                                    |                                 |            Sum Types            | <input type="checkbox" unchecked/> |
 
 ## At the beginning and end of each section you will see:
 
