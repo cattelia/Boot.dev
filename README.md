@@ -93,6 +93,7 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 | 2. Learn Terminal  |      1 - 4      |
 | 3. Learn Git       |     1 - 10      |
 | 4. Project Bookbot |     1 - 11      |
+| 4. Learn OOP       |      1 - 5      |
 
 ## File Name such as: `worldbanc` or `webflyx` and so on...
 
