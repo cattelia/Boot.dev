@@ -6,7 +6,7 @@
 
 # Progress Tracker
 
-<span style="color:#ECAD35">**Updated as of: 2024-06-25**</span><br>
+<span style="color:#ECAD35">**Updated as of: 2024-07-02**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
 | First Course    |  Sub-Course  |              Complete              | Second Course             |  Sub-Course  |              Complete              |
@@ -42,18 +42,18 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 |              |    GitHub    | <input type="checkbox" checked/> x |                                                                      |    Guide 10: Submit Bot    | <input type="checkbox" checked/> x |
 |              |  GitIgnore   | <input type="checkbox" checked/> x |                                                                      |  Guide 11: Commit to Git   | <input type="checkbox" checked/> x |
 
-| Fifth Course |  Sub-Course   |              Complete              | Sixth Course                    |           Sub-Course            |              Complete              |
-| :----------- | :-----------: | :--------------------------------: | :------------------------------ | :-----------------------------: | :--------------------------------: |
-| 5. Learn OOP |               | <input type="checkbox" unchecked/> | 6. Learn Functional Programming |                                 | <input type="checkbox" unchecked/> |
-|              |    Classes    | <input type="checkbox" checked/> x |                                 | What is Functional Programming? | <input type="checkbox" unchecked/> |
-|              | Encapsulation | <input type="checkbox" checked/> x |                                 |      First Class Functions      | <input type="checkbox" unchecked/> |
-|              |  Abstraction  | <input type="checkbox" checked/> x |                                 |         Pure Functions          | <input type="checkbox" unchecked/> |
-|              |  Inheritance  | <input type="checkbox" checked/> x |                                 |           Recursions            | <input type="checkbox" unchecked/> |
-|              | Polymorphism  | <input type="checkbox" unchecked/> |                                 |    Function Transformations     | <input type="checkbox" unchecked/> |
-|              |               |                                    |                                 |            Closures             | <input type="checkbox" unchecked/> |
-|              |               |                                    |                                 |            Currying             | <input type="checkbox" unchecked/> |
-|              |               |                                    |                                 |           Decorators            | <input type="checkbox" unchecked/> |
-|              |               |                                    |                                 |            Sum Types            | <input type="checkbox" unchecked/> |
+| Fifth Course |      Sub-Course      |              Complete              | Sixth Course                    |           Sub-Course            |              Complete              |
+| :----------- | :------------------: | :--------------------------------: | :------------------------------ | :-----------------------------: | :--------------------------------: |
+| 5. Learn OOP |                      | <input type="checkbox" checked/> x | 6. Learn Functional Programming |                                 | <input type="checkbox" unchecked/> |
+|              |       Classes        | <input type="checkbox" checked/> x |                                 | What is Functional Programming? | <input type="checkbox" unchecked/> |
+|              |    Encapsulation     | <input type="checkbox" checked/> x |                                 |      First Class Functions      | <input type="checkbox" unchecked/> |
+|              |     Abstraction      | <input type="checkbox" checked/> x |                                 |         Pure Functions          | <input type="checkbox" unchecked/> |
+|              |     Inheritance      | <input type="checkbox" checked/> x |                                 |           Recursions            | <input type="checkbox" unchecked/> |
+|              |     Polymorphism     | <input type="checkbox" checked/> x |                                 |    Function Transformations     | <input type="checkbox" unchecked/> |
+|              | Operator Overloading | <input type="checkbox" checked/> x |                                 |            Closures             | <input type="checkbox" unchecked/> |
+|              |                      |                                    |                                 |            Currying             | <input type="checkbox" unchecked/> |
+|              |                      |                                    |                                 |           Decorators            | <input type="checkbox" unchecked/> |
+|              |                      |                                    |                                 |            Sum Types            | <input type="checkbox" unchecked/> |
 
 ## At the beginning and end of each section you will see:
 
@@ -93,7 +93,7 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 | 2. Learn Terminal  |      1 - 4      |
 | 3. Learn Git       |     1 - 10      |
 | 4. Project Bookbot |     1 - 11      |
-| 4. Learn OOP       |      1 - 5      |
+| 4. Learn OOP       |      1 - 6      |
 
 ## File Name such as: `worldbanc` or `webflyx` and so on...
 
