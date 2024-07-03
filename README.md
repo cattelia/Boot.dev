@@ -78,17 +78,17 @@ These files are the curated study material that Boot.dev had me work through to 
 
 # <span style="color:#ECAD35">My Certificates!</span>
 
-<!-- ![python_cert](img/certificates/1_python.png) -->
-<!-- ![shell_cert](img/certificates/2_shell_terminals.png) -->
-<!-- ![git_cert](img/certificates/3_git.png) -->
-<!-- ![oop_cert](img/certificates/4_oop.png) -->
+<!-- Certificate width="500" height="375" -->
+<!--  -->
+<!--  -->
+<!-- -->
 
-|                                 |                                                                                                                       |
-| :------------------------------ | :-------------------------------------------------------------------------------------------------------------------: |
-| <h3>Learn Python</h3>           |          [<img src="img/certificates/1_python.png" width="500" height="375">](img/certificates/1_python.png)          |
-| <h3>Learn Shell & Terminal</h3> | [<img src="img/certificates/2_shell_terminals.png" width="500" height="375">](img/certificates/2_shell_terminals.png) |
-| <h3>Learn Git </h3>             |             [<img src="img/certificates/3_git.png" width="500" height="375">](img/certificates/3_git.png)             |
-| <h3>Learn OOP </h3>             |             [<img src="img/certificates/4_oop.png" width="500" height="375">](img/certificates/4_oop.png)             |
+|                                 |                                                       |
+| :------------------------------ | :---------------------------------------------------: |
+| <h3>Learn Python</h3>           | ![python_cert](img/certificates/1_python.png) </span> |
+| <h3>Learn Shell & Terminal</h3> | ![shell_cert](img/certificates/2_shell_terminals.png) |
+| <h3>Learn Git </h3>             |        ![git_cert](img/certificates/3_git.png)        |
+| <h3>Learn OOP </h3>             |        ![oop_cert](img/certificates/4_oop.png)        |
 
 <br>
 
