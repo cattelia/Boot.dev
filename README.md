@@ -10,7 +10,7 @@ You will find my heat map, achievements, Certificate of Completion, personal pro
 
 # Progress Tracker
 
-<span style="color:#ECAD35">**Updated as of: 2024-07-02**</span><br>
+<span style="color:#ECAD35">**Updated as of: 2024-07-03**</span><br>
 _This and all other markdowns are optimized from Visual Studio Code Markdown visuals and not Git Markdown visuals_
 
 | 1. Learn Python | 2. Learn Terminal & Shell | 3. Learn Git | 4. <a href="https://github.com/cattelia/bookbot">Build a Bookbot</a> |     5. Learn OOP     | 6. Learn Functional Programming |
@@ -76,7 +76,7 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 
 These files are the curated study material that Boot.dev had me work through to learn the basics and fundamentals of the languages or concepts that I was working on. They are located in the file that they were meant to be used for.
 
-# <span style="color:#ECAD35">My Certificates!</span>
+# <span style="color:#ECAD35">Earned Certificates!</span>
 
 |                                   |                                                       |
 | :-------------------------------: | :---------------------------------------------------: |
@@ -84,7 +84,9 @@ These files are the curated study material that Boot.dev had me work through to 
 | <h3> Learn Shell & Terminal </h3> | ![shell_cert](img/certificates/2_shell_terminals.png) |
 |       <h3> Learn Git </h3>        |        ![git_cert](img/certificates/3_git.png)        |
 |       <h3> Learn OOP </h3>        |        ![oop_cert](img/certificates/4_oop.png)        |
+|                                   |                                                       |
 
+<br>
 <br>
 
 ![alt text](img/image-4.png)

@@ -89,3 +89,32 @@ A = Rectangle(0, 0, 1, 1)
 B = Rectangle(4, 4, 5, 5)
 A.overlaps(B)
 
+'''
+
+        value = True
+        
+        if self.get_left_x() <= rect.get_right_x():
+            value = True
+        else:
+            return False
+
+        if self.get_right_x() >= rect.get_left_x():
+            value = True
+        else:
+            return False
+
+        if self.get_top_y() >= rect.get_bottom_y():
+            value = True
+        else:
+            return False
+            
+        if self.get_bottom_y() <= rect.get_top_y():
+            value = True
+        else:
+            return False
+            
+        return value
+
+
+
+'''
