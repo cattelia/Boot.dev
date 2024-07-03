@@ -78,21 +78,12 @@ These files are the curated study material that Boot.dev had me work through to 
 
 # <span style="color:#ECAD35">My Certificates!</span>
 
-## Learn Python
-
-![python_cert](img/certificates/1_python.png)
-
-## Learn Shell & Terminal
-
-![shell_cert](img/certificates/2_shell_terminals.png)
-
-## Learn Git
-
-![git_cert](img/certificates/3_git.png)
-
-## Learn OOP
-
-![oop_cert](img/certificates/4_oop.png)
+|                        |                                                       |
+| :--------------------: | :---------------------------------------------------: |
+|      Learn Python      |     ![python_cert](img/certificates/1_python.png)     |
+| Learn Shell & Terminal | ![shell_cert](img/certificates/2_shell_terminals.png) |
+|       Learn Git        |        ![git_cert](img/certificates/3_git.png)        |
+|       Learn OOP        |        ![oop_cert](img/certificates/4_oop.png)        |
 
 <br>
 
