@@ -42,18 +42,18 @@ _This and all other markdowns are optimized from Visual Studio Code Markdown vis
 |              |    GitHub    | <input type="checkbox" checked/> x |                                                                      |    Guide 10: Submit Bot    | <input type="checkbox" checked/> x |
 |              |  GitIgnore   | <input type="checkbox" checked/> x |                                                                      |  Guide 11: Commit to Git   | <input type="checkbox" checked/> x |
 
-| Fifth Course |      Sub-Course      |              Complete              | Sixth Course                    |           Sub-Course            |              Complete              |
-| :----------- | :------------------: | :--------------------------------: | :------------------------------ | :-----------------------------: | :--------------------------------: |
-| 5. Learn OOP |                      | <input type="checkbox" checked/> x | 6. Learn Functional Programming |                                 | <input type="checkbox" unchecked/> |
-|              |       Classes        | <input type="checkbox" checked/> x |                                 | What is Functional Programming? | <input type="checkbox" unchecked/> |
-|              |    Encapsulation     | <input type="checkbox" checked/> x |                                 |      First Class Functions      | <input type="checkbox" unchecked/> |
-|              |     Abstraction      | <input type="checkbox" checked/> x |                                 |         Pure Functions          | <input type="checkbox" unchecked/> |
-|              |     Inheritance      | <input type="checkbox" checked/> x |                                 |           Recursions            | <input type="checkbox" unchecked/> |
-|              |     Polymorphism     | <input type="checkbox" checked/> x |                                 |    Function Transformations     | <input type="checkbox" unchecked/> |
-|              | Operator Overloading | <input type="checkbox" checked/> x |                                 |            Closures             | <input type="checkbox" unchecked/> |
-|              |                      |                                    |                                 |            Currying             | <input type="checkbox" unchecked/> |
-|              |                      |                                    |                                 |           Decorators            | <input type="checkbox" unchecked/> |
-|              |                      |                                    |                                 |            Sum Types            | <input type="checkbox" unchecked/> |
+| Fifth Course |      Sub-Course      |              Complete              | Sixth Course                    |        Sub-Course        |              Complete              |
+| :----------- | :------------------: | :--------------------------------: | :------------------------------ | :----------------------: | :--------------------------------: |
+| 5. Learn OOP |                      | <input type="checkbox" checked/> x | 6. Learn Functional Programming |                          | <input type="checkbox" unchecked/> |
+|              |       Classes        | <input type="checkbox" checked/> x |                                 |  Functional Programming  | <input type="checkbox" unchecked/> |
+|              |    Encapsulation     | <input type="checkbox" checked/> x |                                 |  First Class Functions   | <input type="checkbox" unchecked/> |
+|              |     Abstraction      | <input type="checkbox" checked/> x |                                 |      Pure Functions      | <input type="checkbox" unchecked/> |
+|              |     Inheritance      | <input type="checkbox" checked/> x |                                 |        Recursions        | <input type="checkbox" unchecked/> |
+|              |     Polymorphism     | <input type="checkbox" checked/> x |                                 | Function Transformations | <input type="checkbox" unchecked/> |
+|              | Operator Overloading | <input type="checkbox" checked/> x |                                 |         Closures         | <input type="checkbox" unchecked/> |
+|              |                      |                                    |                                 |         Currying         | <input type="checkbox" unchecked/> |
+|              |                      |                                    |                                 |        Decorators        | <input type="checkbox" unchecked/> |
+|              |                      |                                    |                                 |        Sum Types         | <input type="checkbox" unchecked/> |
 
 ## At the beginning and end of each section you will see:
 
