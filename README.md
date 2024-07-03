@@ -79,16 +79,16 @@ These files are the curated study material that Boot.dev had me work through to 
 # <span style="color:#ECAD35">My Certificates!</span>
 
 <!-- Certificate width="500" height="375" -->
-<!-- ![python_cert](img/certificates/1_python.png) -->
-<!--  ![shell_cert](img/certificates/2_shell_terminals.png)   -->
-<!--![git_cert](img/certificates/3_git.png)  -->
+<!--  -->
+<!--  -->
+<!-- -->
 
-|                                 |                                                                        |
-| :------------------------------ | :--------------------------------------------------------------------: |
-| <h3>Learn Python</h3>           | <img src="img/certificates/1_python.png" width="500px" height="375px"> |
-| <h3>Learn Shell & Terminal</h3> |                                                                        |
-| <h3>Learn Git </h3>             |                                                                        |
-| <h3>Learn OOP </h3>             |                ![oop_cert](img/certificates/4_oop.png)                 |
+| Course                          |                 Certificate                 |
+| :------------------------------ | :-----------------------------------------: |
+| <h3>Learn Python</h3>           |     ![](img/certificates/1_python.png)      |
+| <h3>Learn Shell & Terminal</h3> | ![](img/certificates/2_shell_terminals.png) |
+| <h3>Learn Git </h3>             |       ![](img/certificates/3_git.png)       |
+| <h3>Learn OOP </h3>             |       ![](img/certificates/4_oop.png)       |
 
 <br>
 
