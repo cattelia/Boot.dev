@@ -31,3 +31,6 @@ sort_full = dict(sorted(full.items(), key=lambda item: item[1], reverse=True))
 for i in sort_full:
     if i.isalpha():
         print(i, sort_full[i])
+
+
+

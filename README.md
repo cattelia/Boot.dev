@@ -76,6 +76,8 @@ While I wanted the colors to be cohesive to the general feel of the Markdown fil
 
 These files are the curated study material that Boot.dev had me work through to learn the basics and fundamentals of the languages or concepts that I was working on. They are located in the file that they were meant to be used for.
 
+![alt text](img/image-6.png)
+
 # <span style="color:#ECAD35">Earned Certificates!</span>
 
 |                                   |                                                       |
