@@ -2,29 +2,51 @@ from main import *
 
 run_cases = [
     (
-        "You can't spell America without Erica",
-        "YOU CAN'T SPELL AMERICA WITHOUT ERICA...",
+        [("document", [".doc", ".docx"]), ("image", [".jpg", ".png"])],
+        ".doc",
+        "document",
     ),
-    ("Friends don't lie.", "FRIENDS DON'T LIE..."),
-    (" She's our friend and she's crazy!", "SHE'S OUR FRIEND AND SHE'S CRAZY!..."),
+    (
+        [("document", [".doc", ".docx"]), ("image", [".jpg", ".png"])],
+        ".png",
+        "image",
+    ),
 ]
 
 submit_cases = run_cases + [
-    (" You're gonna slay 'em dead, Nance. ", "YOU'RE GONNA SLAY 'EM DEAD, NANCE..."),
+    (
+        [("document", [".doc", ".docx"]), ("image", [".jpg", ".png"])],
+        ".txt",
+        "Unknown",
+    ),
+    (
+        [("code", [".py", ".js"]), ("markup", [".html", ".xml"])],
+        ".js",
+        "code",
+    ),
 ]
 
 
-def test(input, expected_output):
-    print("---------------------------------")
-    print(f"Input: {input}")
-    print(f"Expected: {expected_output}")
-    result = format_line(input)
-    print(f"Actual: {result}")
-    if result != expected_output:
+def test(file_extension_tuples, ext, expected_output):
+    try:
+        print("---------------------------------")
+        print("Input tuples:")
+        for file_type, exts in file_extension_tuples:
+            print(f"  {file_type}: {exts}")
+        print(f"Extension: {ext}")
+        print(f"Expecting: {expected_output}")
+        getter_function = file_type_getter(file_extension_tuples)
+        result = getter_function(ext)
+        print(f"Actual: {result}")
+        if result == expected_output:
+            print("Pass")
+            return True
         print("Fail")
         return False
-    print("Pass")
-    return True
+    except Exception as e:
+        print("Fail")
+        print(e)
+        return False
 
 
 def main():
