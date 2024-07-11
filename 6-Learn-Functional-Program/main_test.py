@@ -2,51 +2,37 @@ from main import *
 
 run_cases = [
     (
-        [("document", [".doc", ".docx"]), ("image", [".jpg", ".png"])],
-        ".doc",
-        "document",
+        "* We are the music makers\n- And we are the dreamers of dreams\n* Come with me and you'll be\n",
+        "* We are the music makers\n* Come with me and you'll be\n",
     ),
     (
-        [("document", [".doc", ".docx"]), ("image", [".jpg", ".png"])],
-        ".png",
-        "image",
+        "* In a world of pure imagination\n- There is no life I know\n* Living there, you'll be free\n",
+        "* In a world of pure imagination\n* Living there, you'll be free\n",
     ),
 ]
 
 submit_cases = run_cases + [
     (
-        [("document", [".doc", ".docx"]), ("image", [".jpg", ".png"])],
-        ".txt",
-        "Unknown",
-    ),
-    (
-        [("code", [".py", ".js"]), ("markup", [".html", ".xml"])],
-        ".js",
-        "code",
+        "* If you want to view paradise\n- Simply look around and view it\n* Anything you want to, do it\n* There is no life I know\n- To compare with pure imagination\n* Living there, you'll be free\n",
+        "* If you want to view paradise\n* Anything you want to, do it\n* There is no life I know\n* Living there, you'll be free\n",
     ),
 ]
 
 
-def test(file_extension_tuples, ext, expected_output):
-    try:
-        print("---------------------------------")
-        print("Input tuples:")
-        for file_type, exts in file_extension_tuples:
-            print(f"  {file_type}: {exts}")
-        print(f"Extension: {ext}")
-        print(f"Expecting: {expected_output}")
-        getter_function = file_type_getter(file_extension_tuples)
-        result = getter_function(ext)
-        print(f"Actual: {result}")
-        if result == expected_output:
-            print("Pass")
-            return True
-        print("Fail")
-        return False
-    except Exception as e:
-        print("Fail")
-        print(e)
-        return False
+def test(input_document, expected_output):
+    print("---------------------------------")
+    print("Input document:")
+    print(input_document)
+    print("Expected output:")
+    print(expected_output)
+    result = remove_invalid_lines(input_document)
+    print("Actual output:")
+    print(result)
+    if result == expected_output:
+        print("Pass")
+        return True
+    print("Fail")
+    return False
 
 
 def main():

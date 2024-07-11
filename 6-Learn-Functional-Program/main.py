@@ -1,18 +1,8 @@
-def file_type_getter(file_extension_tuples):
-    file_type_dictionary = {}
+def remove_invalid_lines(document):
+    '''print(len(document))
+    document = document.split("\n")
+    print(len(document))
+    document = "\n".join(document)
+    print(len(document))'''
 
-    # Get individual tuples from the list of tuples
-    for file_tuple in file_extension_tuples:
-        # Get the file types and their file names
-        for file in file_tuple[1]:
-            # And then add them to a dictionary
-            file_type_dictionary[file] = file_tuple[0]
-
-    print(file_type_dictionary)
-
-    return lambda ext: file_type_dictionary.get(ext, "Unknown")
-
-
-
-#file_extension_tuples = [("document", [".doc", ".docx"]), ("image", [".jpg", ".png"])]
-#print(file_type_getter(file_extension_tuples))
+    return "\n".join(filter(lambda line: line.startswith("*"), document.split("\n"))) + "\n"
