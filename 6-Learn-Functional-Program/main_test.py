@@ -2,32 +2,41 @@ from main import *
 
 run_cases = [
     (
-        "* We are the music makers\n- And we are the dreamers of dreams\n* Come with me and you'll be\n",
-        "* We are the music makers\n* Come with me and you'll be\n",
+        "*Don't* panic.\n",
+        "Don't panic.\n",
     ),
     (
-        "* In a world of pure imagination\n- There is no life I know\n* Living there, you'll be free\n",
-        "* In a world of pure imagination\n* Living there, you'll be free\n",
+        "The **answer to the ultimate question** of life, the universe and everything is *42*\n",
+        "The answer to the ultimate question of life, the universe and everything is 42\n",
     ),
 ]
 
 submit_cases = run_cases + [
     (
-        "* If you want to view paradise\n- Simply look around and view it\n* Anything you want to, do it\n* There is no life I know\n- To compare with pure imagination\n* Living there, you'll be free\n",
-        "* If you want to view paradise\n* Anything you want to, do it\n* There is no life I know\n* Living there, you'll be free\n",
+        "",
+        "",
+    ),
+    (
+        "In the beginning the *universe* was created.\nThis has made a lot of people very *angry* and been widely regarded as a bad move.\n",
+        "In the beginning the universe was created.\nThis has made a lot of people very angry and been widely regarded as a bad move.\n",
+    ),
+    (
+        "Ford, you're turning into a *penguin*\n",
+        "Ford, you're turning into a penguin\n",
+    ),
+    (
+        "*Space* is big.\nYou just won't **believe** how vastly, hugely, mind-bogglingly big it is.\n",
+        "Space is big.\nYou just won't believe how vastly, hugely, mind-bogglingly big it is.\n",
     ),
 ]
 
 
-def test(input_document, expected_output):
+def test(input_doc, expected_output):
     print("---------------------------------")
-    print("Input document:")
-    print(input_document)
-    print("Expected output:")
-    print(expected_output)
-    result = remove_invalid_lines(input_document)
-    print("Actual output:")
-    print(result)
+    print(f"Input document:\n{input_doc}")
+    print(f"Expected output:\n{expected_output}")
+    result = remove_emphasis(input_doc)
+    print(f"Actual output:\n{result}")
     if result == expected_output:
         print("Pass")
         return True
