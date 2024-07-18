@@ -1,10 +1,6 @@
-def remove_emphasis_from_word(word):
-    # ?
+def zipmap(keys, values):
+    # If either the keys or values list is empty
+    if len(keys) == 0 or len(values) == 0:
+        return {}
 
-
-def remove_emphasis_from_line(line):
-    # ?
-
-
-def remove_emphasis(doc_content):
-    # ?
+    return zipmap(keys[0], values[0])
