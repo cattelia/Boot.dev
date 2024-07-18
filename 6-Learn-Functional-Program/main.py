@@ -1,6 +1,12 @@
-def zipmap(keys, values):
-    # If either the keys or values list is empty
-    if len(keys) == 0 or len(values) == 0:
-        return {}
+def sum_nested_list(lst):
+    dir_size = 0
+    for file in lst:
+        if type(file) == int:
+            dir_size += file
+            #print("I am a number")
+        if type(file) == list:
+            #print("I am a list")
+            dir_size += sum_nested_list(file)
 
-    return zipmap(keys[0], values[0])
+
+    return dir_size
