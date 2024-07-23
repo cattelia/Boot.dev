@@ -1,22 +1,24 @@
-from main import sum_nested_list
+from main import *
 
 run_cases = [
-    ([1, 2, [3, 4]], 10),
-    ([5, [6, 7], [[8, 9], 10]], 45),
+    ({1: {2: {3: {}, 4: {5: {}}}, 6: {}, 7: {8: {9: {10: {}}}}}}, 2, 2),
+    ({1: {2: {3: {}, 4: {5: {}}}, 6: {}, 7: {8: {9: {10: {}}}}}}, 9, 4),
 ]
 
 submit_cases = run_cases + [
-    ([], 0),
-    ([1, [2], [3, [4, [5, [6, [7, [8, [9, [10]]]]]]]]], 55),
+    ({}, 1, -1),
+    ({1: {2: {3: {}, 4: {5: {}}}, 6: {}, 7: {8: {9: {10: {}}}}}}, 5, 4),
+    ({1: {2: {3: {}, 4: {5: {}}}, 6: {}, 7: {8: {9: {10: {}}}}}}, 20, -1),
 ]
 
 
-def test(input_list, expected_output):
+def test(input1, input2, expected_output):
     print("---------------------------------")
-    print(f"Input list: {input_list}")
-    print(f"Expected output: {expected_output}")
-    result = sum_nested_list(input_list)
-    print(f"Actual output: {result}")
+    print(f"Input tree: {input1}")
+    print(f"Input document id: {input2}")
+    print(f"Expecting: {expected_output}")
+    result = count_nested_levels(input1, input2)
+    print(f"Actual: {result}")
     if result == expected_output:
         print("Pass")
         return True
