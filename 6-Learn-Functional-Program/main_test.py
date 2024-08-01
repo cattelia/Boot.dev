@@ -2,68 +2,72 @@ from main import *
 
 run_cases = [
     (
-        capitalize_content,
-        "sample.txt",
-        "I really don't feel like screaming today.",
-        ["txt", "md", "doc"],
-        "I REALLY DON'T FEEL LIKE SCREAMING TODAY.",
+        10,
+        "Autobots roll out! The Autobots are always ready for battle.",
+        [
+            "Autobots",
+            "roll out!",
+            "The",
+            "Autobots",
+            "are always",
+            "ready for",
+            "battle.",
+        ],
     ),
     (
-        reverse_content,
-        "testing.doc",
-        "This is probably how they write in the red room in Twin Peaks...",
-        ["txt", "md", "doc"],
-        "...skaeP niwT ni moor der eht ni etirw yeht woh ylbaborp si sihT",
+        20,
+        "Optimus Prime is the leader of the Autobots. Megatron is the archenemy of the Autobots.",
+        [
+            "Optimus Prime is the",
+            "leader of the",
+            "Autobots. Megatron",
+            "is the archenemy of",
+            "the Autobots.",
+        ],
+    ),
+    (
+        30,
+        "Autobots often disguise themselves as vehicles on Earth. The Autobots protect humanity from the Decepticons.",
+        [
+            "Autobots often disguise",
+            "themselves as vehicles on",
+            "Earth. The Autobots protect",
+            "humanity from the Decepticons.",
+        ],
     ),
 ]
+
 
 submit_cases = run_cases + [
     (
-        capitalize_content,
-        "test.docx",
-        "Okay actually I do feel like screaming today.",
-        ["txt", "md", "doc"],
-        "Invalid file format",
+        0,
+        "",
+        [],
     ),
     (
-        reverse_content,
-        "end.ppt",
-        "Cherry pie and coffee anyone?",
-        ["txt", "md", "doc"],
-        "Invalid file format",
+        0,
+        "Cybertron is the home planet of the Autobots.",
+        ["Cybertron", "is", "the", "home", "planet", "of", "the", "Autobots."],
     ),
     (
-        capitalize_content,
-        "sample.doc",
-        "I really do feel like eating today.",
-        ["txt", "md", "doc"],
-        "I REALLY DO FEEL LIKE EATING TODAY.",
-    ),
-    (
-        reverse_content,
-        "testing.md",
-        "The owls are not what they seem.",
-        ["txt", "md", "doc"],
-        ".mees yeht tahw ton era slwo ehT",
+        90,
+        "Bumblebee transforms into a yellow Camaro. Ratchet is the medical officer for the Autobots.",
+        [
+            "Bumblebee transforms into a yellow Camaro. Ratchet is the medical officer for the",
+            "Autobots.",
+        ],
     ),
 ]
 
 
-def test(conversion_func, filename, doc_content, valid_formats, expected_output):
+def test(page_length, document, expected_output):
     print("---------------------------------")
     print(f"Inputs:")
-    print(f" * conversion_func: {conversion_func.__name__}")
-    print(f" * filename: {filename}")
-    print(f" * doc_content: {doc_content}")
-    print(f" * valid_formats: {valid_formats}")
+    print(f" * page_length: {page_length}")
+    print(f" * document: {document}")
     print(f"Expecting: {expected_output}")
-    try:
-        result = doc_format_checker_and_converter(conversion_func, valid_formats)(
-            filename, doc_content
-        )
-    except Exception as e:
-        result = str(e)
-    print(f"Actual: {result}")
+    result = paginator(page_length)(document)
+    print(f"   Actual: {result}")
     if result == expected_output:
         print("Pass")
         return True

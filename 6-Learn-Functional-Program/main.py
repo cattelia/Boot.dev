@@ -1,21 +1,70 @@
-def doc_format_checker_and_converter(conversion_function, valid_formats):
+from functools import reduce
 
-    def doc_checker(filename, content):
-        check_filename = filename.split(".")
-        if check_filename[1] in valid_formats:
-            return conversion_function(content)
-        else:
-            raise ValueError("Invalid file format")
+'''
+def paginator(page_length):
+    # IN: number
+    # OUT: returned function
     
-    return doc_checker
+    def paginate(document):
+        # IN: string `paginate("Boots loves salmon because he is a bear.")`
+        # OUT: list of substring pages
+        print(f"paginate() received the input: '{document}'")
+        pages = document.split()
+
+        def add_word_to_pages(pages, word):
+            # IN: list of strings (pages), string (word)
+            # OUT: list of string (pages) with (word) added
+
+            if pages == []:
+                return word.split()
+            else:
+                for item in word.split():
+                    pages.append(item)
+            
+            #return " ".join(pages)
+            return pages
         
+        document = add_word_to_pages(pages, document)
+        print(f"add_word_to_pages() returned: {document}")
 
 
-# Don't edit below this line
-
-def capitalize_content(content):
-    return content.upper()
+    return paginate
 
 
-def reverse_content(content):
-    return content[::-1]
+paginate = paginator(5)
+pages = paginate("Boots loves salmon because he is a bear.")
+print(pages)
+'''
+
+
+
+
+from functools import reduce
+
+
+def paginator(page_length):
+    
+
+    def paginate(document):
+        # IN: document --> string
+        # OUT: list of substring pages
+        pages = document.split()
+
+        def add_word_to_pages(pages, word):
+            if pages == []:
+                return word.split()
+            else:
+                return f"{pages} {word}"
+
+        content = reduce(add_word_to_pages, pages)        
+        return content
+        
+    return paginate
+
+
+
+
+paginate = paginator(5)
+print(paginate) # <function paginator.<locals>.paginate at 0x7f828dcc9ee0>
+pages = paginate("Boots loves salmon.")
+print(pages)
