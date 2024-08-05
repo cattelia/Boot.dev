@@ -1,74 +1,40 @@
 from main import *
 
 run_cases = [
-    (
-        10,
-        "Autobots roll out! The Autobots are always ready for battle.",
-        [
-            "Autobots",
-            "roll out!",
-            "The",
-            "Autobots",
-            "are always",
-            "ready for",
-            "battle.",
-        ],
-    ),
-    (
-        20,
-        "Optimus Prime is the leader of the Autobots. Megatron is the archenemy of the Autobots.",
-        [
-            "Optimus Prime is the",
-            "leader of the",
-            "Autobots. Megatron",
-            "is the archenemy of",
-            "the Autobots.",
-        ],
-    ),
-    (
-        30,
-        "Autobots often disguise themselves as vehicles on Earth. The Autobots protect humanity from the Decepticons.",
-        [
-            "Autobots often disguise",
-            "themselves as vehicles on",
-            "Earth. The Autobots protect",
-            "humanity from the Decepticons.",
-        ],
-    ),
+    (0, 10, 3, 0, [9, 0, 0]),
+    (0, 12, 0, 1, [12, 46, 0]),
+    (1, 100, 33, 2, [100, 0, 2]),
 ]
-
 
 submit_cases = run_cases + [
-    (
-        0,
-        "",
-        [],
-    ),
-    (
-        0,
-        "Cybertron is the home planet of the Autobots.",
-        ["Cybertron", "is", "the", "home", "planet", "of", "the", "Autobots."],
-    ),
-    (
-        90,
-        "Bumblebee transforms into a yellow Camaro. Ratchet is the medical officer for the Autobots.",
-        [
-            "Bumblebee transforms into a yellow Camaro. Ratchet is the medical officer for the",
-            "Autobots.",
-        ],
-    ),
+    (0, 0, 0, 0, [0, 0, 0]),
+    (1000, 1000, 200, 5, [1000, 200, 5]),
+    (0, 10, 0, 2, [10, 46, 1]),
+    (5, 2000, 200, 3, [1055, 0, 0]),
 ]
 
 
-def test(page_length, document, expected_output):
+def test(input1, input2, input3, input4, expected):
     print("---------------------------------")
     print(f"Inputs:")
-    print(f" * page_length: {page_length}")
-    print(f" * document: {document}")
-    print(f"Expecting: {expected_output}")
-    result = paginator(page_length)(document)
-    print(f"   Actual: {result}")
-    if result == expected_output:
+    print(f" *           mana: {input1}")
+    print(f" *       max_mana: {input2}")
+    print(f" *         energy: {input3}")
+    print(f" * energy_potions: {input4}")
+    print(
+        f"Expecting: mana {expected[0]}, energy {expected[1]}, energy potions {expected[2]}"
+    )
+    result_mana, result_energy, result_potions = meditate(
+        input1, input2, input3, input4
+    )
+    print(
+        f"   Actual: mana {result_mana}, energy {result_energy}, energy potions {result_potions}"
+    )
+    if (
+        result_mana == expected[0]
+        and result_energy == expected[1]
+        and result_potions == expected[2]
+    ):
         print("Pass")
         return True
     print("Fail")
