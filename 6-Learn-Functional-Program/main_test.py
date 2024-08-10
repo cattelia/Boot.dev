@@ -1,40 +1,51 @@
 from main import *
 
 run_cases = [
-    (0, 10, 3, 0, [9, 0, 0]),
-    (0, 12, 0, 1, [12, 46, 0]),
-    (1, 100, 33, 2, [100, 0, 2]),
+    (
+        [
+            "Welcome to the jungle",
+            "We've got fun and games",
+            "We've got everything you want honey",
+        ],
+        15,
+    )
 ]
 
 submit_cases = run_cases + [
-    (0, 0, 0, 0, [0, 0, 0]),
-    (1000, 1000, 200, 5, [1000, 200, 5]),
-    (0, 10, 0, 2, [10, 46, 1]),
-    (5, 2000, 200, 3, [1055, 0, 0]),
+    (
+        [
+            "We are the champions my friends",
+            "And we'll keep on fighting till the end",
+        ],
+        14,
+    ),
+    (
+        [
+            "I've got another confession to make",
+            "I'm your fool",
+            "Everyone's got their chains to break",
+            "Holdin' you",
+        ],
+        17,
+    ),
 ]
 
 
-def test(input1, input2, input3, input4, expected):
+def test(inputs, expected_output):
     print("---------------------------------")
-    print(f"Inputs:")
-    print(f" *           mana: {input1}")
-    print(f" *       max_mana: {input2}")
-    print(f" *         energy: {input3}")
-    print(f" * energy_potions: {input4}")
-    print(
-        f"Expecting: mana {expected[0]}, energy {expected[1]}, energy potions {expected[2]}"
-    )
-    result_mana, result_energy, result_potions = meditate(
-        input1, input2, input3, input4
-    )
-    print(
-        f"   Actual: mana {result_mana}, energy {result_energy}, energy potions {result_potions}"
-    )
-    if (
-        result_mana == expected[0]
-        and result_energy == expected[1]
-        and result_potions == expected[2]
-    ):
+    print(f"Input:")
+    for x in inputs:
+        print(f" * {x}")
+    print(f"Expecting: {expected_output}")
+    aggregator = word_count_aggregator()
+
+    try:
+        for input in inputs:
+            result = aggregator(input)
+    except Exception as e:
+        result = e
+    print(f"Actual: {result}")
+    if result == expected_output:
         print("Pass")
         return True
     print("Fail")
