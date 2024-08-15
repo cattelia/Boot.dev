@@ -1,62 +1,73 @@
 from main import *
 
+
 run_cases = [
-    (
-        [
-            "Welcome to the jungle",
-            "We've got fun and games",
-            "We've got everything you want honey",
-        ],
-        15,
-    )
+    [
+        ("Boots", "The Lover of Salmon"),
+        ("Superman", "The Big Blue Boyscout"),
+        ("Batman", "The Caped Crusader"),
+        ("Woman Wonder", ""),
+    ],
 ]
+
 
 submit_cases = run_cases + [
-    (
-        [
-            "We are the champions my friends",
-            "And we'll keep on fighting till the end",
-        ],
-        14,
-    ),
-    (
-        [
-            "I've got another confession to make",
-            "I'm your fool",
-            "Everyone's got their chains to break",
-            "Holdin' you",
-        ],
-        17,
-    ),
+    [
+        ("Green Lantern", "The Man Without Fear"),
+        ("AquaMan", "Dweller in the Depths"),
+        ("The Flash", "The Crimson Comet"),
+        ("The Martian Manhunter", "Mars' Sole Survivor"),
+        ("Cyborg", "Tech Titan"),
+    ],
 ]
 
 
-def test(inputs, expected_output):
+def test(input_list):
     print("---------------------------------")
-    print(f"Input:")
-    for x in inputs:
-        print(f" * {x}")
-    print(f"Expecting: {expected_output}")
-    aggregator = word_count_aggregator()
+    copy_to_clipboard, paste_from_clipboard = new_clipboard({})
+    failed = False
+    for item in input_list:
+        print("Copying to Clipboard:")
+        print(f"*   Key: {item[0]}")
+        print(f"* Value: {item[1]}")
+        copy_to_clipboard(*item)
 
-    try:
-        for input in inputs:
-            result = aggregator(input)
-    except Exception as e:
-        result = e
-    print(f"Actual: {result}")
-    if result == expected_output:
+        print("Pasting From Clipboard:")
+        print(f"*      Key: {item[0]}")
+        result = paste_from_clipboard(item[0])
+        expected_output = item[1]
+        print(f"* Expected: {expected_output}")
+        print(f"*   Actual: {result}")
+        if result != expected_output:
+            print("Fail")
+            failed = True
+        else:
+            print("Pass")
+        print("---------------------------------")
+
+    # check pasting missing key
+    missing_key = "Joker"
+    print("Pasting:")
+    print(f"* Key: {missing_key}")
+    result = paste_from_clipboard(missing_key)
+    expected_output = ""
+    print(f"* Expected: '{expected_output}'")
+    print(f"*   Actual: '{result}'")
+    if result != expected_output:
+        print("Fail: missing key should return an empty string")
+        failed = True
+    else:
         print("Pass")
-        return True
-    print("Fail")
-    return False
+
+    passed = not failed
+    return passed
 
 
 def main():
     passed = 0
     failed = 0
     for test_case in test_cases:
-        correct = test(*test_case)
+        correct = test(test_case)
         if correct:
             passed += 1
         else:

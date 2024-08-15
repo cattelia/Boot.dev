@@ -1,10 +1,22 @@
-def word_count_aggregator():
-    count = 0
+def new_clipboard(initial_clipboard):
+    # ?
 
-    def sum_values(document):
-        nonlocal count
-        words = document.split()
-        count += len(words)
-        return count
+    copy_clippy = initial_clipboard.copy()
 
-    return sum_values
+    def copy_to_clipboard(key, value):
+        copy_clippy[key] = value
+
+    def paste_from_clipboard(key):
+        if key not in copy_clippy:
+            return ""
+        else:
+            return copy_clippy[key]
+
+    return copy_to_clipboard, paste_from_clipboard
+
+'''intitial_clipboard = {'a': 1, 'b': 2, 'c': 3}
+copy_to_clipboard, paste_from_clipboard = new_clipboard(intitial_clipboard)
+copy_to_clipboard('d', 4)
+print(paste_from_clipboard('e'))
+print(paste_from_clipboard('d'))
+'''
