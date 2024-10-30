@@ -1,73 +1,77 @@
-from plugins import *
-from decorators import *
+from main import *
 
 run_cases = [
     (
-        configure_backups,
-        [
-            ("path", "~/documents"),
-            ("extension", ".md"),
-        ],
-        {
-            "path": "~/documents",
-            "prefix": "copy_",
-            "extension": ".md",
-        },
+        "aibohphobia",
+        True,
     ),
     (
-        configure_login,
-        [
-            ("user", "goku_fanatic"),
-            ("password", "kakarot1989"),
-        ],
-        {
-            "user": "goku_fanatic",
-            "password": "kakarot1989",
-            "token": None,
-        },
+        "eve",
+        True,
+    ),
+    (
+        "level",
+        True,
+    ),
+    (
+        "tat",
+        True,
+    ),
+    (
+        "rotator",
+        True,
+    ),
+    (
+        "potato",
+        False,
     ),
 ]
+
 
 submit_cases = run_cases + [
     (
-        configure_backups,
-        [
-            ("path", "~/workspace/backups"),
-            ("prefix", "backup_"),
-        ],
-        {
-            "path": "~/workspace/backups",
-            "prefix": "backup_",
-            "extension": ".txt",
-        },
+        "",
+        True,
     ),
     (
-        configure_login,
-        [
-            ("user", "john_q_sample"),
-            ("password", "p@$$w0rd"),
-            ("token", "a09adc-0914sf-012la9-fa3sa0-2342ra"),
-        ],
-        {
-            "user": "john_q_sample",
-            "password": "p@$$w0rd",
-            "token": "a09adc-0914sf-012la9-fa3sa0-2342ra",
-        },
+        "a",
+        True,
+    ),
+    (
+        "apple",
+        False,
+    ),
+    (
+        "redivider",
+        True,
+    ),
+    (
+        "divide",
+        False,
+    ),
+    (
+        "kayak",
+        True,
     ),
 ]
 
 
-def test(func, args, expected_output):
+def is_lru_cache_imported_from_functools():
+    func_name = "lru_cache"
+    module_name = "functools"
+    return (
+        func_name in globals()
+        and callable(globals()[func_name])
+        and globals()[func_name].__module__ == module_name
+    ) or module_name in globals()
+
+
+def test(input, expected_output):
     print("---------------------------------")
-    print(f"Function: {func.__name__}")
-    print("Positional Arguments:")
-    for arg in args:
-        print(f" * {arg}")
-    print(f"Expecting:")
-    print(expected_output)
-    result = func(*args)
-    print(f"Actual:")
-    print(result)
+    print(f"Input: '{input}'")
+    print(f"Expecting: {expected_output}")
+    result = is_palindrome(input)
+    print(f"   Actual: {result}")
     if result == expected_output:
         print("Pass")
         return True
@@ -78,6 +82,15 @@ def test(func, args, expected_output):
 def main():
     passed = 0
     failed = 0
+    print("---------------------------------")
+    if is_lru_cache_imported_from_functools():
+        print("lru_cache was imported from functools")
+        print("Pass")
+        passed = 1
+    else:
+        failed = 1
+        print("lru_cache was not imported from functools")
+        print("Fail")
     for test_case in test_cases:
         correct = test(*test_case)
         if correct:

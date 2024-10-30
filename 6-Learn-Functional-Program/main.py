@@ -1,2 +1,5 @@
-def args_logger(*args, **kwargs):
-    # ?
+from functools import lru_cache
+
+# ?
+def is_palindrome(word):
+    pass
