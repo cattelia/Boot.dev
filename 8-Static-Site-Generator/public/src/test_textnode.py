@@ -1,5 +1,3 @@
-  GNU nano 6.2                                 test_textnode.py                                           import unittest
-
 import unittest
 
 from textnode import TextNode, TextType
