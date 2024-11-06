@@ -1,11 +1,11 @@
-from functools import lru_cache
+def find_minimum(nums):
+    minimum = float("inf")
 
-@lru_cache()
-def is_palindrome(word):
-    if len(word) == 1 or len(word) == 0:
-        return True
+    if nums == []:
+        return None
+    
+    for num in nums:
+        if num < minimum:
+            minimum = num
         
-    if word[-1] == word[0]:
-        return is_palindrome(word[1:-1])
-    else:
-        return False
+    return minimum
