@@ -16,11 +16,18 @@ class HTMLNode:
     def props_to_html(self):
         if self.props is None:
             return ""
+        
         props_str = ""
         for key, value in self.props.items():
             props_str += f' {key}="{value}"'
         return props_str
     
 
+class LeafNode(HTMLNode):
+    
+    def __init__(self, value, tag=None, props=None):
+        super().__init__(value, tag, None, props)
+    
+        
 
 
